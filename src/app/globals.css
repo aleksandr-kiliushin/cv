@@ -16,15 +16,6 @@ body {
   font-size: 1.6rem;
 }
 
-main {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  max-width: 1024px;
-  margin: 0 auto;
-  padding: 8px 16px;
-  overflow-y: scroll;
-}
-
 * {
   box-sizing: border-box;
   line-height: 1;
