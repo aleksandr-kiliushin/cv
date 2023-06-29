@@ -10,7 +10,7 @@ const Cv: FC = () => {
       <Image alt="portrait" className={classes.profilePhoto} src={portrait} />
       <div className={classes.summarySection}>
         <h1>Aleksandr Kiliushin</h1>
-        <p>Frontend developer (React)</p>
+        <h2>Frontend developer (React)</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla veritatis, sapiente optio dicta placeat
           exercitationem sequi iste! Tempore cum, optio error, ab quod quae fugit saepe asperiores, repellat officiis
@@ -54,10 +54,37 @@ const Cv: FC = () => {
             Batumi, Georgia
           </a>
         </div>
-        <section className={classes.skillsSection}>Skills</section>
-        <section className={classes.educationSection}>Education</section>
+        <section className={classes.skillsSection}>
+          <h3>Skills</h3>
+        </section>
+        <section className={classes.educationSection}>
+          <h3>Education</h3>
+        </section>
       </div>
-      <section className={classes.workExperienceSection}>Work experience</section>
+      <section className={classes.workExperienceSection}>
+        <h2>Work experience</h2>
+        <h3>Rambler&CO</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
+          consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
+          eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
+          sint rem qui accusamus dolores porro, ipsum suscipit maiores!
+        </p>
+        <h3>Danfoss</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
+          consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
+          eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
+          sint rem qui accusamus dolores porro, ipsum suscipit maiores!
+        </p>
+        <h3>Neuron</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
+          consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
+          eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
+          sint rem qui accusamus dolores porro, ipsum suscipit maiores!
+        </p>
+      </section>
     </div>
   )
 }
