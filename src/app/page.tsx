@@ -1,8 +1,11 @@
 import Image from "next/image"
 import { FC } from "react"
+import { BsGithub as GithubIcon, BsLinkedin as LinkedinIcon, BsTelegram as TelegramIcon } from "react-icons/bs"
+import { FaLocationDot as LocationIcon } from "react-icons/fa6"
+import { MdEmail as EmailIcon } from "react-icons/md"
 
 import classes from "./page.module.css"
-import portrait from "./portrait.webp"
+import portrait from "./profile.jpg"
 
 const Cv: FC = () => {
   return (
@@ -24,7 +27,7 @@ const Cv: FC = () => {
       <div className={classes.contactsSkillsAndEducationSections}>
         <div className={classes.contactsSection}>
           <a className={classes.contact} href="mailto:aleksandr.kiliushin@gmail.com" rel="noreferrer" target="_blank">
-            <span>Icon</span>
+            <EmailIcon size={20} />
             aleksandr.kiliushin@gmail.com
           </a>
           <a
@@ -33,15 +36,15 @@ const Cv: FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <span>Icon</span>
+            <LinkedinIcon size={20} />
             in/aleksandr-kiliushin
           </a>
           <a className={classes.contact} href="https://github.com/aleksandr-kiliushin" rel="noreferrer" target="_blank">
-            <span>Icon</span>
+            <GithubIcon size={20} />
             github.com/aleksandr-kiliushin
           </a>
           <a className={classes.contact} href="https://t.me/aleksandr_kiliushin" rel="noreferrer" target="_blank">
-            <span>Icon</span>
+            <TelegramIcon size={20} />
             t.me/aleksandr_kiliushin
           </a>
           <a
@@ -50,7 +53,7 @@ const Cv: FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <span>Icon</span>
+            <LocationIcon size={20} />
             Batumi, Georgia
           </a>
         </div>

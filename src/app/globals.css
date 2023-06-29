@@ -14,6 +14,7 @@ body {
 
 body {
   font-size: 1.6rem;
+  background-image: linear-gradient(to bottom, #d2e8ff, #ffffff);
 }
 
 * {
