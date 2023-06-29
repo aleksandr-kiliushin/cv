@@ -1,7 +1,13 @@
 .cv {
   display: grid;
-  row-gap: 0.8rem;
+  grid-template-areas:
+    "profilePhoto                       summarySection       "
+    "contactsSkillsAndEducationSections workExperienceSection";
+  grid-template-columns: 1fr 3fr;
+  gap: 0.8rem;
   padding: 0.8rem;
+  aspect-ratio: 210 / 297;
+  background-color: darkseagreen;
 }
 
 .header {
@@ -11,18 +17,31 @@
 }
 
 .profilePhoto {
+  grid-area: profilePhoto;
   width: 100%;
   height: 100%;
 }
 
-.summary {
+.summarySection {
+  grid-area: summarySection;
   background-color: bisque;
+}
+
+.contactsSkillsAndEducationSections {
+  grid-area: contactsSkillsAndEducationSections;
+  display: grid;
+  row-gap: 0.8rem;
 }
 
 .contactsSection {
   background-color: burlywood;
-  /* background-color: var(--primary-main); */
-  /* color: white; */
+}
+
+.contact {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  column-gap: 0.4rem;
 }
 
 .educationSection {
@@ -34,5 +53,6 @@
 }
 
 .workExperienceSection {
+  grid-area: workExperienceSection;
   background-color: darkgray;
 }
