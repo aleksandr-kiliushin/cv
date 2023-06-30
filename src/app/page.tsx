@@ -6,7 +6,7 @@ import {
   BiLogoTypescript as TypeScriptIcon,
 } from "react-icons/bi"
 import { BsGithub as GithubIcon, BsLinkedin as LinkedinIcon, BsTelegram as TelegramIcon } from "react-icons/bs"
-import { FaGitAlt as GitIcon } from "react-icons/fa"
+import { FaGitAlt as GitIcon, FaUniversity as UniversityIcon } from "react-icons/fa"
 import { FaLocationDot as LocationIcon } from "react-icons/fa6"
 import { IoIosFlask as FlaskIcon } from "react-icons/io"
 import { MdEmail as EmailIcon } from "react-icons/md"
@@ -114,9 +114,19 @@ const Cv: FC = () => {
         </section>
         <section className={classes.sidePanelSection}>
           <h3>EDUCATION</h3>
+          <p className={classes.sidePanelSectionItem}>
+            <UniversityIcon size={20} />
+            <b>Master</b>’s Degree in Industrial Heat Power Engineering – Moscow State Power Institute (Russia,
+            2018-2020)
+          </p>
+          <p className={classes.sidePanelSectionItem}>
+            <UniversityIcon size={20} />
+            <b>Bachelor</b>’s Degree in Industrial Heat Power Engineering – Ivanovo State Power University (Russia,
+            2014-2018)
+          </p>
         </section>
         <section className={classes.sidePanelSection}>
-          <h3>Languages</h3>
+          <h3>LANGUAGES</h3>
           <p className={classes.sidePanelSectionItem}>
             <span className={classes.twoCharactersBox}>EN</span>
             English – B2
