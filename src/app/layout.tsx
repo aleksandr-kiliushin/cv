@@ -3,7 +3,7 @@ import { FC, PropsWithChildren } from "react"
 
 import "./globals.css"
 
-const inter = Ubuntu({ subsets: ["latin"], weight: "400" })
+const inter = Ubuntu({ subsets: ["latin"], weight: ["400", "500"] })
 
 export const metadata = {
   title: "CV | Aleksandr Kiliushin",
