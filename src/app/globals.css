@@ -13,7 +13,7 @@ body {
 
 body {
   font-size: 1.6rem;
-  background-image: linear-gradient(to bottom, #d2e8ff, #ffffff);
+  background-image: linear-gradient(to bottom, #4487dc 40%, #585a41 60% 70%, #b3ae9b 100%);
 }
 
 * {
