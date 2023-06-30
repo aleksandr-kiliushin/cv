@@ -49,10 +49,23 @@
   background-color: darkgray;
 }
 
+.twoCharactersBox {
+  display: block;
+  height: 1.8rem;
+  width: 1.8rem;
+  background-color: black;
+  border-radius: 0.2rem;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 1.8rem;
+}
+
+/* Temporary START */
 .sidePanelSection:nth-child(odd) {
   background: lightgray;
 }
-
 .sidePanelSection:nth-child(even) {
   background: darkgray;
 }
+/* Temporary END */

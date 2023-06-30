@@ -6,6 +6,7 @@ import {
   BiLogoTypescript as TypeScriptIcon,
 } from "react-icons/bi"
 import { BsGithub as GithubIcon, BsLinkedin as LinkedinIcon, BsTelegram as TelegramIcon } from "react-icons/bs"
+import { FaGitAlt as GitIcon } from "react-icons/fa"
 import { FaLocationDot as LocationIcon } from "react-icons/fa6"
 import { IoIosFlask as FlaskIcon } from "react-icons/io"
 import { MdEmail as EmailIcon } from "react-icons/md"
@@ -82,9 +83,6 @@ const Cv: FC = () => {
         </div>
         <section className={classes.sidePanelSection}>
           <h3>SKILLS</h3>
-        </section>
-        <section className={classes.sidePanelSection}>
-          <h3>TOOLS</h3>
           <p className={classes.sidePanelSectionItem}>
             <JavaScriptIcon size={20} />
             JavaScript
@@ -98,16 +96,20 @@ const Cv: FC = () => {
             React.js
           </p>
           <p className={classes.sidePanelSectionItem}>
-            <NodeJsIcon size={20} />
-            Node.js
-          </p>
-          <p className={classes.sidePanelSectionItem}>
             <WebpackIcon size={20} />
             Webpack
           </p>
           <p className={classes.sidePanelSectionItem}>
+            <NodeJsIcon size={20} />
+            Node.js
+          </p>
+          <p className={classes.sidePanelSectionItem}>
             <FlaskIcon size={20} />
             Jest, Cypress
+          </p>
+          <p className={classes.sidePanelSectionItem}>
+            <GitIcon size={20} />
+            Git
           </p>
         </section>
         <section className={classes.sidePanelSection}>
@@ -115,6 +117,14 @@ const Cv: FC = () => {
         </section>
         <section className={classes.sidePanelSection}>
           <h3>Languages</h3>
+          <p className={classes.sidePanelSectionItem}>
+            <span className={classes.twoCharactersBox}>EN</span>
+            English – B2
+          </p>
+          <p className={classes.sidePanelSectionItem}>
+            <span className={classes.twoCharactersBox}>RU</span>
+            Russian – Native
+          </p>
         </section>
       </div>
       <section className={classes.workExperienceSection}>
