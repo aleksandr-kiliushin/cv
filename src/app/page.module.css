@@ -40,8 +40,13 @@
 
 .sidePanelSectionItem {
   display: flex;
-  align-items: center;
+  align-items: start;
   column-gap: 0.4rem;
+}
+
+.sidePanelSectionItem svg {
+  flex: none;
+  margin-top: -1px;
 }
 
 .workExperienceSection {

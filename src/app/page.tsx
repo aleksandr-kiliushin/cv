@@ -116,13 +116,17 @@ const Cv: FC = () => {
           <h3>EDUCATION</h3>
           <p className={classes.sidePanelSectionItem}>
             <UniversityIcon size={20} />
-            <b>Master</b>’s Degree in Industrial Heat Power Engineering – Moscow State Power Institute (Russia,
-            2018-2020)
+            <span>
+              <b>Master</b>’s Degree in Industrial Heat Power Engineering – Moscow State Power Institute (Russia,
+              2018-2020)
+            </span>
           </p>
           <p className={classes.sidePanelSectionItem}>
             <UniversityIcon size={20} />
-            <b>Bachelor</b>’s Degree in Industrial Heat Power Engineering – Ivanovo State Power University (Russia,
-            2014-2018)
+            <span>
+              <b>Bachelor</b>’s Degree in Industrial Heat Power Engineering – Ivanovo State Power University (Russia,
+              2014-2018)
+            </span>
           </p>
         </section>
         <section className={classes.sidePanelSection}>
