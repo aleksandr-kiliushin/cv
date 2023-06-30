@@ -1,8 +1,16 @@
 import Image from "next/image"
 import { FC } from "react"
+import {
+  BiLogoNodejs as NodeJsIcon,
+  BiLogoReact as ReactIcon,
+  BiLogoTypescript as TypeScriptIcon,
+} from "react-icons/bi"
 import { BsGithub as GithubIcon, BsLinkedin as LinkedinIcon, BsTelegram as TelegramIcon } from "react-icons/bs"
 import { FaLocationDot as LocationIcon } from "react-icons/fa6"
+import { IoIosFlask as FlaskIcon } from "react-icons/io"
 import { MdEmail as EmailIcon } from "react-icons/md"
+import { RiJavascriptFill as JavaScriptIcon } from "react-icons/ri"
+import { SiWebpack as WebpackIcon } from "react-icons/si"
 
 import classes from "./page.module.css"
 import portrait from "./profile.jpg"
@@ -24,14 +32,19 @@ const Cv: FC = () => {
           vero itaque fuga. Voluptatum, dolore qui quo repudiandae minus earum dignissimos harum fugit sunt.
         </p>
       </div>
-      <div className={classes.contactsSkillsAndEducationSections}>
-        <div className={classes.contactsSection}>
-          <a className={classes.contact} href="mailto:aleksandr.kiliushin@gmail.com" rel="noreferrer" target="_blank">
+      <div className={classes.sidePanel}>
+        <div className={classes.sidePanelSection}>
+          <a
+            className={classes.sidePanelSectionItem}
+            href="mailto:aleksandr.kiliushin@gmail.com"
+            rel="noreferrer"
+            target="_blank"
+          >
             <EmailIcon size={20} />
             aleksandr.kiliushin@gmail.com
           </a>
           <a
-            className={classes.contact}
+            className={classes.sidePanelSectionItem}
             href="https://www.linkedin.com/in/aleksandr-kiliushin"
             rel="noreferrer"
             target="_blank"
@@ -39,16 +52,26 @@ const Cv: FC = () => {
             <LinkedinIcon size={20} />
             in/aleksandr-kiliushin
           </a>
-          <a className={classes.contact} href="https://github.com/aleksandr-kiliushin" rel="noreferrer" target="_blank">
+          <a
+            className={classes.sidePanelSectionItem}
+            href="https://github.com/aleksandr-kiliushin"
+            rel="noreferrer"
+            target="_blank"
+          >
             <GithubIcon size={20} />
             github.com/aleksandr-kiliushin
           </a>
-          <a className={classes.contact} href="https://t.me/aleksandr_kiliushin" rel="noreferrer" target="_blank">
+          <a
+            className={classes.sidePanelSectionItem}
+            href="https://t.me/aleksandr_kiliushin"
+            rel="noreferrer"
+            target="_blank"
+          >
             <TelegramIcon size={20} />
             t.me/aleksandr_kiliushin
           </a>
           <a
-            className={classes.contact}
+            className={classes.sidePanelSectionItem}
             href="https://www.google.com/maps/place/Batumi"
             rel="noreferrer"
             target="_blank"
@@ -57,11 +80,41 @@ const Cv: FC = () => {
             Batumi, Georgia
           </a>
         </div>
-        <section className={classes.skillsSection}>
-          <h3>Skills</h3>
+        <section className={classes.sidePanelSection}>
+          <h3>SKILLS</h3>
         </section>
-        <section className={classes.educationSection}>
-          <h3>Education</h3>
+        <section className={classes.sidePanelSection}>
+          <h3>TOOLS</h3>
+          <p className={classes.sidePanelSectionItem}>
+            <JavaScriptIcon size={20} />
+            JavaScript
+          </p>
+          <p className={classes.sidePanelSectionItem}>
+            <TypeScriptIcon size={20} />
+            TypeScript
+          </p>
+          <p className={classes.sidePanelSectionItem}>
+            <ReactIcon size={20} />
+            React.js
+          </p>
+          <p className={classes.sidePanelSectionItem}>
+            <NodeJsIcon size={20} />
+            Node.js
+          </p>
+          <p className={classes.sidePanelSectionItem}>
+            <WebpackIcon size={20} />
+            Webpack
+          </p>
+          <p className={classes.sidePanelSectionItem}>
+            <FlaskIcon size={20} />
+            Jest, Cypress
+          </p>
+        </section>
+        <section className={classes.sidePanelSection}>
+          <h3>EDUCATION</h3>
+        </section>
+        <section className={classes.sidePanelSection}>
+          <h3>Languages</h3>
         </section>
       </div>
       <section className={classes.workExperienceSection}>

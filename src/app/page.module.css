@@ -1,8 +1,8 @@
 .cv {
   display: grid;
   grid-template-areas:
-    "profilePhoto                       summarySection       "
-    "contactsSkillsAndEducationSections workExperienceSection";
+    "profilePhoto summarySection       "
+    "sidePanel    workExperienceSection";
   grid-template-columns: 1fr 2fr;
   grid-template-rows: min-content 1fr;
   gap: 0.8rem;
@@ -26,34 +26,33 @@
   background-color: bisque;
 }
 
-.contactsSkillsAndEducationSections {
-  grid-area: contactsSkillsAndEducationSections;
+.sidePanel {
+  grid-area: sidePanel;
   display: grid;
   row-gap: 0.8rem;
 }
 
-.contactsSection {
+.sidePanelSection {
   display: flex;
   flex-direction: column;
   row-gap: 0.8rem;
-  background-color: burlywood;
 }
 
-.contact {
+.sidePanelSectionItem {
   display: flex;
   align-items: center;
   column-gap: 0.4rem;
 }
 
-.educationSection {
-  background-color: wheat;
-}
-
-.skillsSection {
-  background-color: lightgray;
-}
-
 .workExperienceSection {
   grid-area: workExperienceSection;
   background-color: darkgray;
+}
+
+.sidePanelSection:nth-child(odd) {
+  background: lightgray;
+}
+
+.sidePanelSection:nth-child(even) {
+  background: darkgray;
 }
