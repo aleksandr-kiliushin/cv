@@ -5,7 +5,7 @@
     "sidePanel    workExperienceSection";
   grid-template-columns: 1fr 2fr;
   grid-template-rows: min-content 1fr;
-  gap: 0.8rem;
+  gap: 2rem;
   max-width: 800px;
   padding: 0.8rem;
   margin: 1rem auto;
@@ -29,7 +29,8 @@
 .sidePanel {
   grid-area: sidePanel;
   display: grid;
-  row-gap: 0.8rem;
+  grid-auto-rows: min-content;
+  row-gap: 2rem;
 }
 
 .sidePanelSection {
@@ -67,10 +68,10 @@
 }
 
 /* Temporary START */
-.sidePanelSection:nth-child(odd) {
+/* .sidePanelSection:nth-child(odd) {
   background: lightgray;
 }
 .sidePanelSection:nth-child(even) {
   background: darkgray;
-}
+} */
 /* Temporary END */
