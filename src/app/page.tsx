@@ -23,7 +23,7 @@ const Cv: FC = () => {
       <div className={classes.summarySection}>
         <h1>Aleksandr Kiliushin</h1>
         <h2>Frontend developer (React)</h2>
-        <p>Set up deploy manually</p>
+        <p>Set up deploy manually 2</p>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla veritatis, sapiente optio dicta placeat
           exercitationem sequi iste! Tempore cum, optio error, ab quod quae fugit saepe asperiores, repellat officiis
