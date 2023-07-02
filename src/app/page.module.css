@@ -7,7 +7,7 @@
   grid-template-rows: min-content 1fr;
   gap: 2rem;
   max-width: 800px;
-  padding: 0.8rem;
+  padding: 2rem;
   margin: 2rem auto;
   aspect-ratio: 210 / 297;
   background-color: white;
@@ -30,7 +30,6 @@
 
 .summarySection {
   grid-area: summarySection;
-  background-color: bisque;
 }
 
 .sidePanel {
@@ -59,7 +58,9 @@
 
 .workExperienceSection {
   grid-area: workExperienceSection;
-  background-color: darkgray;
+  display: grid;
+  grid-auto-rows: min-content;
+  row-gap: 2rem;
 }
 
 .twoCharactersBox {
@@ -73,12 +74,3 @@
   text-align: center;
   line-height: 1.8rem;
 }
-
-/* Temporary START */
-/* .sidePanelSection:nth-child(odd) {
-  background: lightgray;
-}
-.sidePanelSection:nth-child(even) {
-  background: darkgray;
-} */
-/* Temporary END */

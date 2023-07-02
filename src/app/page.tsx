@@ -8,6 +8,7 @@ import {
 import { BsGithub as GithubIcon, BsLinkedin as LinkedinIcon, BsTelegram as TelegramIcon } from "react-icons/bs"
 import { FaGitAlt as GitIcon, FaUniversity as UniversityIcon } from "react-icons/fa"
 import { FaLocationDot as LocationIcon } from "react-icons/fa6"
+import { GrGraphQl as GraphQlIcon } from "react-icons/gr"
 import { IoIosFlask as FlaskIcon } from "react-icons/io"
 import { MdEmail as EmailIcon } from "react-icons/md"
 import { RiJavascriptFill as JavaScriptIcon } from "react-icons/ri"
@@ -22,7 +23,7 @@ const Cv: FC = () => {
       <Image alt="portrait" className={classes.profilePhoto} src={portrait} />
       <div className={classes.summarySection}>
         <h1>Aleksandr Kiliushin</h1>
-        <h2>Frontend developer (React)</h2>
+        <h2>Frontend Developer (React)</h2>
         <p>
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla veritatis, sapiente optio dicta placeat
           exercitationem sequi iste! Tempore cum, optio error, ab quod quae fugit saepe asperiores, repellat officiis
@@ -100,6 +101,10 @@ const Cv: FC = () => {
             Webpack
           </p>
           <p className={classes.sidePanelSectionItem}>
+            <GraphQlIcon size={20} />
+            GraphQL
+          </p>
+          <p className={classes.sidePanelSectionItem}>
             <NodeJsIcon size={20} />
             Node.js
           </p>
@@ -142,28 +147,34 @@ const Cv: FC = () => {
         </section>
       </div>
       <section className={classes.workExperienceSection}>
-        <h2>Work experience</h2>
-        <h3>Rambler&CO</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
-          consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
-          eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
-          sint rem qui accusamus dolores porro, ipsum suscipit maiores!
-        </p>
-        <h3>Danfoss</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
-          consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
-          eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
-          sint rem qui accusamus dolores porro, ipsum suscipit maiores!
-        </p>
-        <h3>Neuron</h3>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
-          consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
-          eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
-          sint rem qui accusamus dolores porro, ipsum suscipit maiores!
-        </p>
+        <h2>WORK EXPERIENCE</h2>
+        <div>
+          <h3>Rambler&CO</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
+            consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
+            eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
+            sint rem qui accusamus dolores porro, ipsum suscipit maiores!
+          </p>
+        </div>
+        <div>
+          <h3>Neuron</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
+            consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
+            eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
+            sint rem qui accusamus dolores porro, ipsum suscipit maiores!
+          </p>
+        </div>
+        <div>
+          <h3>Danfoss</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
+            consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
+            eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
+            sint rem qui accusamus dolores porro, ipsum suscipit maiores!
+          </p>
+        </div>
       </section>
     </div>
   )
