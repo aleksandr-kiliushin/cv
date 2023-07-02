@@ -24,15 +24,23 @@ const Cv: FC = () => {
       <div className={classes.summarySection}>
         <h1>Aleksandr Kiliushin</h1>
         <h2>Frontend Developer (React)</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla veritatis, sapiente optio dicta placeat
-          exercitationem sequi iste! Tempore cum, optio error, ab quod quae fugit saepe asperiores, repellat officiis
-          quas fuga neque! Aspernatur, voluptatem suscipit. Cum, tempora perferendis dolorem numquam facilis quasi
-          adipisci doloribus a saepe debitis minus, dignissimos beatae quo accusamus, quae recusandae velit alias ex
-          itaque quod neque possimus dicta obcaecati! Asperiores rem neque temporibus nisi aspernatur quos debitis modi
-          facilis pariatur cumque deleniti perspiciatis, eum aperiam officiis maxime numquam est accusamus non earum
-          vero itaque fuga. Voluptatum, dolore qui quo repudiandae minus earum dignissimos harum fugit sunt.
-        </p>
+        <ul>
+          <li>Software Engineer with 3 years of experience specializing in web and frontend development.</li>
+          <li>
+            Proficient in JavaScript and TypeScript, with expertise in building interactive web-based applications.
+          </li>
+          <li>
+            Experienced in working on projects such as a big company intranet, a budget web app and online calculators.
+          </li>
+          <li>
+            Knowledgeable in various phases of the Software Development Life Cycle, including feature analysis,
+            planning, development, legacy code refactoring, and migrating to new technologies.
+          </li>
+          <li>
+            Able to connect with individuals at different levels within the organization, promoting efficient teamwork.
+          </li>
+          <li>Collaborative team player with a focus on flexibility and active participation in product evolution.</li>
+        </ul>
       </div>
       <div className={classes.sidePanel}>
         <div className={classes.sidePanelSection}>
@@ -150,15 +158,6 @@ const Cv: FC = () => {
         <h2>WORK EXPERIENCE</h2>
         <div>
           <h3>Rambler&CO</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
-            consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
-            eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
-            sint rem qui accusamus dolores porro, ipsum suscipit maiores!
-          </p>
-        </div>
-        <div>
-          <h3>Neuron</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
             consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
