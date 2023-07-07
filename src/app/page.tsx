@@ -81,7 +81,7 @@ const Cv: FC = () => {
         </ul>
       </div>
       <div className={classes.sidePanel}>
-        <div className={classes.sidePanelSection}>
+        <section className={classes.sidePanelSection}>
           <a
             className={classes.iconWithText}
             href="mailto:aleksandr.kiliushin@gmail.com"
@@ -122,7 +122,42 @@ const Cv: FC = () => {
             <LocationIcon />
             Batumi, Georgia
           </a>
-        </div>
+        </section>
+        {/* <section className={classes.sidePanelSection}>
+          <h3>SKILLS</h3>
+          <p className={classes.iconWithText}>
+            <JavaScriptIcon />
+            JavaScript
+          </p>
+          <p className={classes.iconWithText}>
+            <TypeScriptIcon />
+            TypeScript
+          </p>
+          <p className={classes.iconWithText}>
+            <ReactIcon />
+            React
+          </p>
+          <p className={classes.iconWithText}>
+            <WebpackIcon />
+            Webpack
+          </p>
+          <p className={classes.iconWithText}>
+            <GraphQlIcon />
+            GraphQL
+          </p>
+          <p className={classes.iconWithText}>
+            <NodeJsIcon />
+            Node.js
+          </p>
+          <p className={classes.iconWithText}>
+            <FlaskIcon />
+            Jest, Cypress
+          </p>
+          <p className={classes.iconWithText}>
+            <GitIcon />
+            Git
+          </p>
+        </section> */}
         <section className={classes.sidePanelSection}>
           <h3>EDUCATION</h3>
           <p className={classes.iconWithText}>
@@ -286,41 +321,3 @@ const Cv: FC = () => {
 }
 
 export default Cv
-
-/*
-<section className={classes.sidePanelSection}>
-  <h3>SKILLS</h3>
-  <p className={classes.iconWithText}>
-    <JavaScriptIcon  />
-    JavaScript
-  </p>
-  <p className={classes.iconWithText}>
-    <TypeScriptIcon  />
-    TypeScript
-  </p>
-  <p className={classes.iconWithText}>
-    <ReactIcon  />
-    React
-  </p>
-  <p className={classes.iconWithText}>
-    <WebpackIcon  />
-    Webpack
-  </p>
-  <p className={classes.iconWithText}>
-    <GraphQlIcon  />
-    GraphQL
-  </p>
-  <p className={classes.iconWithText}>
-    <NodeJsIcon  />
-    Node.js
-  </p>
-  <p className={classes.iconWithText}>
-    <FlaskIcon  />
-    Jest, Cypress
-  </p>
-  <p className={classes.iconWithText}>
-    <GitIcon  />
-    Git
-  </p>
-</section>
-*/
