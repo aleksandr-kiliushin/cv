@@ -36,9 +36,20 @@ import { TbBrandCypress as CypressIcon } from "react-icons/tb"
 import classes from "./page.module.css"
 import portrait from "./profile.jpg"
 
-const STARTING_WORKING_DATE_IN_RAMBLER = new Date(2021, 5)
+const STARTING_WORKING_DATE_IN_RAMBLER = new Date(2021, 3)
 const currentDate = new Date()
-const lastWorkExperienceDuration = "TODO"
+const monthsAtCurrentJob = Math.ceil(
+  (Number(currentDate) - Number(STARTING_WORKING_DATE_IN_RAMBLER)) / (1000 * 60 * 60 * 24 * 30)
+)
+const yearsAtCurrentJob = Math.floor(monthsAtCurrentJob / 12)
+let lastWorkExperienceDuration = ""
+if (yearsAtCurrentJob !== 0) {
+  lastWorkExperienceDuration += `${yearsAtCurrentJob}y `
+}
+const _monthsAtCurrentJob = monthsAtCurrentJob % 12
+if (_monthsAtCurrentJob !== 0) {
+  lastWorkExperienceDuration += `${_monthsAtCurrentJob}m`
+}
 
 const Cv: FC = () => {
   return (
@@ -159,8 +170,8 @@ const Cv: FC = () => {
             <li>New features development for a large project that has existed since 2015.</li>
             <li>Interaction with the backend team and other related development teams.</li>
             <li>Refactoring of existing modules, code base optimisation.</li>
-            <li>Migration from jQuery to TypeScript and React.</li>
-            <li>Creating plugins for TinyMCE text editor.</li>
+            <li>Migration from jQuery and Backbone.js to TypeScript and React.</li>
+            <li>Creating plugins for a Rich Text Editor.</li>
             <li>Web analytics configuration.</li>
           </ul>
           <div className={classes.workExperienceSkills}>
