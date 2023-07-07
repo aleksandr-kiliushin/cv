@@ -34,6 +34,8 @@
 
 .summarySection {
   grid-area: summarySection;
+  display: grid;
+  row-gap: 0.4rem;
 }
 
 .sidePanel {
@@ -54,9 +56,22 @@
   align-items: start;
   column-gap: 0.4rem;
 }
-
 .iconWithText svg {
   flex: none;
+  height: 18px;
+  width: 18px;
+  margin-top: -1px;
+}
+.iconWithText__small {
+  display: flex;
+  align-items: start;
+  column-gap: 0.2rem;
+  font-size: 13px;
+}
+.iconWithText__small svg {
+  flex: none;
+  height: 16px;
+  width: 16px;
   margin-top: -1px;
 }
 
