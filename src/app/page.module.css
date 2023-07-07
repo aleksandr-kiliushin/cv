@@ -87,10 +87,12 @@
   row-gap: 0.8rem;
 }
 
-.workExperiencePositionRow {
+.workExperienceHeader {
   display: grid;
   grid-auto-flow: column;
-  justify-content: space-between;
+  justify-content: start;
+  align-items: center;
+  column-gap: 1.2rem;
 }
 
 .workExperienceSkills {

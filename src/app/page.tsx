@@ -155,19 +155,12 @@ const Cv: FC = () => {
       <section className={classes.workExperienceSection}>
         <h2>WORK EXPERIENCE</h2>
         <div className={classes.workExperience}>
-          <span className={classes.iconWithText}>
-            <OrganizationIcon />
+          <div className={classes.workExperienceHeader}>
             <h3>Rambler&CO</h3>
-          </span>
-          <div className={classes.workExperiencePositionRow}>
-            <span className={classes.iconWithText}>
-              <PersonIcon />
-              <h4>Frontend developer</h4>
-            </span>
-            <span className={classes.iconWithText}>
-              <CalendarIcon />
-              Apr 2021 – Now ({lastWorkExperienceDuration})
-            </span>
+            <span>|</span>
+            <h4>Frontend developer</h4>
+            <span>|</span>
+            Apr 2021 – Now ({lastWorkExperienceDuration})
           </div>
           <p>I develop interfaces for the company employees:</p>
           <ul>
@@ -210,19 +203,12 @@ const Cv: FC = () => {
           </div>
         </div>
         <div className={classes.workExperience}>
-          <span className={classes.iconWithText}>
-            <OrganizationIcon />
+          <div className={classes.workExperienceHeader}>
             <h3>Neuron</h3>
-          </span>
-          <div className={classes.workExperiencePositionRow}>
-            <span className={classes.iconWithText}>
-              <PersonIcon />
-              <h4>Frontend developer</h4>
-            </span>
-            <span className={classes.iconWithText}>
-              <CalendarIcon />
-              Oct 2020 – Apr 2021 (6m)
-            </span>
+            <span>|</span>
+            <h4>Frontend developer</h4>
+            <span>|</span>
+            Oct 2020 – Apr 2021 (7m)
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
@@ -254,19 +240,12 @@ const Cv: FC = () => {
           </div>
         </div>
         <div className={classes.workExperience}>
-          <span className={classes.iconWithText}>
-            <OrganizationIcon />
+          <div className={classes.workExperienceHeader}>
             <h3>Danfoss</h3>
-          </span>
-          <div className={classes.workExperiencePositionRow}>
-            <span className={classes.iconWithText}>
-              <PersonIcon />
-              <h4>Engineer</h4>
-            </span>
-            <span className={classes.iconWithText}>
-              <CalendarIcon />
-              Aug 2019 – Oct 2020 (1y 3m)
-            </span>
+            <span>|</span>
+            <h4>Engineer</h4>
+            <span>|</span>
+            Aug 2019 – Oct 2020 (1y 3m)
           </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
