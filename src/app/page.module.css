@@ -3,7 +3,7 @@
   grid-template-areas:
     "profilePhoto summarySection       "
     "sidePanel    workExperienceSection";
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: min-content auto;
   grid-template-rows: min-content 1fr;
   gap: 2rem;
   max-width: 800px;
@@ -16,8 +16,12 @@
 
 @media (max-width: 840px) {
   .cv {
-    margin: 2rem 2rem;
+    margin: 2rem;
   }
+}
+
+@page {
+  margin: -28px;
 }
 
 .profilePhoto {

@@ -59,7 +59,7 @@ const Cv: FC = () => {
         <h1>Aleksandr Kiliushin</h1>
         <h2>Frontend Developer (React)</h2>
         <ul>
-          <li>Software Engineer with 3 years of experience specializing in web and frontend development.</li>
+          <li>Software Engineer with 4+ years of experience specializing in web and frontend development.</li>
           <li>
             Proficient in JavaScript and TypeScript, with expertise in building interactive web-based applications.
           </li>
@@ -68,12 +68,16 @@ const Cv: FC = () => {
           </li>
           <li>
             Knowledgeable in various phases of the Software Development Life Cycle, including feature analysis,
-            planning, development, legacy code refactoring, and migrating to new technologies.
+            planning, development, refactoring, legacy code eliminating, and migrating to new technologies.
           </li>
           <li>
             Able to connect with individuals at different levels within the organization, promoting efficient teamwork.
           </li>
           <li>Collaborative team player with a focus on flexibility and active participation in product evolution.</li>
+          <li>
+            Constantly looking for new knowledge and challenges to become more efficient developer and stronger team
+            player.
+          </li>
         </ul>
       </div>
       <div className={classes.sidePanel}>
@@ -84,7 +88,7 @@ const Cv: FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <EmailIcon size={20} />
+            <EmailIcon size={16} />
             aleksandr.kiliushin@gmail.com
           </a>
           <a
@@ -93,7 +97,7 @@ const Cv: FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <LinkedinIcon size={20} />
+            <LinkedinIcon size={16} />
             in/aleksandr-kiliushin
           </a>
           <a
@@ -102,11 +106,11 @@ const Cv: FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <GithubIcon size={20} />
+            <GithubIcon size={16} />
             github.com/aleksandr-kiliushin
           </a>
           <a className={classes.iconWithText} href="https://t.me/aleksandr_kiliushin" rel="noreferrer" target="_blank">
-            <TelegramIcon size={20} />
+            <TelegramIcon size={16} />
             t.me/aleksandr_kiliushin
           </a>
           <a
@@ -115,21 +119,21 @@ const Cv: FC = () => {
             rel="noreferrer"
             target="_blank"
           >
-            <LocationIcon size={20} />
+            <LocationIcon size={16} />
             Batumi, Georgia
           </a>
         </div>
         <section className={classes.sidePanelSection}>
           <h3>EDUCATION</h3>
           <p className={classes.iconWithText}>
-            <UniversityIcon size={20} />
+            <UniversityIcon size={16} />
             <span>
               <b>Master</b>’s Degree in Industrial Heat Power Engineering – Moscow State Power Institute (Russia,
               2018-2020)
             </span>
           </p>
           <p className={classes.iconWithText}>
-            <UniversityIcon size={20} />
+            <UniversityIcon size={16} />
             <span>
               <b>Bachelor</b>’s Degree in Industrial Heat Power Engineering – Ivanovo State Power University (Russia,
               2014-2018)
@@ -152,16 +156,16 @@ const Cv: FC = () => {
         <h2>WORK EXPERIENCE</h2>
         <div className={classes.workExperience}>
           <span className={classes.iconWithText}>
-            <OrganizationIcon size={20} />
+            <OrganizationIcon size={16} />
             <h3>Rambler&CO</h3>
           </span>
           <div className={classes.workExperiencePositionRow}>
             <span className={classes.iconWithText}>
-              <PersonIcon size={20} />
+              <PersonIcon size={16} />
               <h4>Frontend developer</h4>
             </span>
             <span className={classes.iconWithText}>
-              <CalendarIcon size={20} />
+              <CalendarIcon size={16} />
               Apr 2021 – Now ({lastWorkExperienceDuration})
             </span>
           </div>
@@ -176,47 +180,47 @@ const Cv: FC = () => {
           </ul>
           <div className={classes.workExperienceSkills}>
             <p className={classes.iconWithText}>
-              <TypeScriptIcon size={20} />
+              <TypeScriptIcon size={16} />
               TypeScript
             </p>
             <p className={classes.iconWithText}>
-              <WebpackIcon size={20} />
+              <WebpackIcon size={16} />
               Webpack
             </p>
             <p className={classes.iconWithText}>
-              <ReactIcon size={20} />
+              <ReactIcon size={16} />
               React
             </p>
             <p className={classes.iconWithText}>
-              <ReduxIcon size={20} />
+              <ReduxIcon size={16} />
               Redux
             </p>
             <p className={classes.iconWithText}>
-              <AntDesignIcon size={20} />
+              <AntDesignIcon size={16} />
               AntDesign
             </p>
             <p className={classes.iconWithText}>
-              <JestIcon size={20} />
+              <JestIcon size={16} />
               Jest
             </p>
             <p className={classes.iconWithText}>
-              <CypressIcon size={20} />
+              <CypressIcon size={16} />
               Cypress
             </p>
           </div>
         </div>
         <div className={classes.workExperience}>
           <span className={classes.iconWithText}>
-            <OrganizationIcon size={20} />
+            <OrganizationIcon size={16} />
             <h3>Neuron</h3>
           </span>
           <div className={classes.workExperiencePositionRow}>
             <span className={classes.iconWithText}>
-              <PersonIcon size={20} />
+              <PersonIcon size={16} />
               <h4>Frontend developer</h4>
             </span>
             <span className={classes.iconWithText}>
-              <CalendarIcon size={20} />
+              <CalendarIcon size={16} />
               Oct 2020 – Apr 2021 (6m)
             </span>
           </div>
@@ -228,39 +232,39 @@ const Cv: FC = () => {
           </p>
           <div className={classes.workExperienceSkills}>
             <p className={classes.iconWithText}>
-              <TypeScriptIcon size={20} />
+              <TypeScriptIcon size={16} />
               TypeScript
             </p>
             <p className={classes.iconWithText}>
-              <ReactIcon size={20} />
+              <ReactIcon size={16} />
               React
             </p>
             <p className={classes.iconWithText}>
-              <StyledComponentsIcon size={20} />
+              <StyledComponentsIcon size={16} />
               Styled components
             </p>
             <p className={classes.iconWithText}>
-              <MaterialUiIcon size={20} />
+              <MaterialUiIcon size={16} />
               MaterialUI
             </p>
             <p className={classes.iconWithText}>
-              <EthereumIcon size={20} />
+              <EthereumIcon size={16} />
               Web3
             </p>
           </div>
         </div>
         <div className={classes.workExperience}>
           <span className={classes.iconWithText}>
-            <OrganizationIcon size={20} />
+            <OrganizationIcon size={16} />
             <h3>Danfoss</h3>
           </span>
           <div className={classes.workExperiencePositionRow}>
             <span className={classes.iconWithText}>
-              <PersonIcon size={20} />
+              <PersonIcon size={16} />
               <h4>Engineer</h4>
             </span>
             <span className={classes.iconWithText}>
-              <CalendarIcon size={20} />
+              <CalendarIcon size={16} />
               Aug 2019 – Oct 2020 (1y 3m)
             </span>
           </div>
@@ -272,27 +276,27 @@ const Cv: FC = () => {
           </p>
           <div className={classes.workExperienceSkills}>
             <p className={classes.iconWithText}>
-              <TypeScriptIcon size={20} />
+              <TypeScriptIcon size={16} />
               TypeScript
             </p>
             <p className={classes.iconWithText}>
-              <PythonIcon size={20} />
+              <PythonIcon size={16} />
               Python
             </p>
             <p className={classes.iconWithText}>
-              <ReactIcon size={20} />
+              <ReactIcon size={16} />
               React
             </p>
             <p className={classes.iconWithText}>
-              <DjangoIcon size={20} />
+              <DjangoIcon size={16} />
               Django
             </p>
             <p className={classes.iconWithText}>
-              <ReduxIcon size={20} />
+              <ReduxIcon size={16} />
               Redux
             </p>
             <p className={classes.iconWithText}>
-              <PostgresIcon size={20} />
+              <PostgresIcon size={16} />
               PostgreSQL
             </p>
           </div>
@@ -308,35 +312,35 @@ export default Cv
 <section className={classes.sidePanelSection}>
   <h3>SKILLS</h3>
   <p className={classes.iconWithText}>
-    <JavaScriptIcon size={20} />
+    <JavaScriptIcon size={16} />
     JavaScript
   </p>
   <p className={classes.iconWithText}>
-    <TypeScriptIcon size={20} />
+    <TypeScriptIcon size={16} />
     TypeScript
   </p>
   <p className={classes.iconWithText}>
-    <ReactIcon size={20} />
+    <ReactIcon size={16} />
     React
   </p>
   <p className={classes.iconWithText}>
-    <WebpackIcon size={20} />
+    <WebpackIcon size={16} />
     Webpack
   </p>
   <p className={classes.iconWithText}>
-    <GraphQlIcon size={20} />
+    <GraphQlIcon size={16} />
     GraphQL
   </p>
   <p className={classes.iconWithText}>
-    <NodeJsIcon size={20} />
+    <NodeJsIcon size={16} />
     Node.js
   </p>
   <p className={classes.iconWithText}>
-    <FlaskIcon size={20} />
+    <FlaskIcon size={16} />
     Jest, Cypress
   </p>
   <p className={classes.iconWithText}>
-    <GitIcon size={20} />
+    <GitIcon size={16} />
     Git
   </p>
 </section>
