@@ -45,13 +45,13 @@
   row-gap: 0.8rem;
 }
 
-.sidePanelSectionItem {
+.iconWithText {
   display: flex;
   align-items: start;
   column-gap: 0.4rem;
 }
 
-.sidePanelSectionItem svg {
+.iconWithText svg {
   flex: none;
   margin-top: -1px;
 }
@@ -60,7 +60,25 @@
   grid-area: workExperienceSection;
   display: grid;
   grid-auto-rows: min-content;
-  row-gap: 2rem;
+  row-gap: 1.6rem;
+}
+
+.workExperience {
+  display: grid;
+  row-gap: 0.8rem;
+}
+
+.workExperiencePositionRow {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}
+
+.workExperienceSkills {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0.4rem;
+  column-gap: 1.2rem;
 }
 
 .twoCharactersBox {

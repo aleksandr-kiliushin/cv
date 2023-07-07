@@ -1,21 +1,44 @@
 import Image from "next/image"
 import { FC } from "react"
 import {
+  BiLogoDjango as DjangoIcon,
   BiLogoNodejs as NodeJsIcon,
+  BiLogoPython as PythonIcon,
   BiLogoReact as ReactIcon,
+  BiLogoRedux as ReduxIcon,
   BiLogoTypescript as TypeScriptIcon,
 } from "react-icons/bi"
-import { BsGithub as GithubIcon, BsLinkedin as LinkedinIcon, BsTelegram as TelegramIcon } from "react-icons/bs"
+import {
+  BsGithub as GithubIcon,
+  BsLinkedin as LinkedinIcon,
+  BsPerson as PersonIcon,
+  BsTelegram as TelegramIcon,
+} from "react-icons/bs"
 import { FaGitAlt as GitIcon, FaUniversity as UniversityIcon } from "react-icons/fa"
 import { FaLocationDot as LocationIcon } from "react-icons/fa6"
+import { GoOrganization as OrganizationIcon } from "react-icons/go"
 import { GrGraphQl as GraphQlIcon } from "react-icons/gr"
 import { IoIosFlask as FlaskIcon } from "react-icons/io"
+import { LiaEthereum as EthereumIcon } from "react-icons/lia"
 import { MdEmail as EmailIcon } from "react-icons/md"
 import { RiJavascriptFill as JavaScriptIcon } from "react-icons/ri"
-import { SiWebpack as WebpackIcon } from "react-icons/si"
+import { RxCalendar as CalendarIcon } from "react-icons/rx"
+import {
+  SiAntdesign as AntDesignIcon,
+  SiJest as JestIcon,
+  SiMui as MaterialUiIcon,
+  SiPostgresql as PostgresIcon,
+  SiStyledcomponents as StyledComponentsIcon,
+  SiWebpack as WebpackIcon,
+} from "react-icons/si"
+import { TbBrandCypress as CypressIcon } from "react-icons/tb"
 
 import classes from "./page.module.css"
 import portrait from "./profile.jpg"
+
+const STARTING_WORKING_DATE_IN_RAMBLER = new Date(2021, 5)
+const currentDate = new Date()
+const lastWorkExperienceDuration = "TODO"
 
 const Cv: FC = () => {
   return (
@@ -45,7 +68,7 @@ const Cv: FC = () => {
       <div className={classes.sidePanel}>
         <div className={classes.sidePanelSection}>
           <a
-            className={classes.sidePanelSectionItem}
+            className={classes.iconWithText}
             href="mailto:aleksandr.kiliushin@gmail.com"
             rel="noreferrer"
             target="_blank"
@@ -54,7 +77,7 @@ const Cv: FC = () => {
             aleksandr.kiliushin@gmail.com
           </a>
           <a
-            className={classes.sidePanelSectionItem}
+            className={classes.iconWithText}
             href="https://www.linkedin.com/in/aleksandr-kiliushin"
             rel="noreferrer"
             target="_blank"
@@ -63,7 +86,7 @@ const Cv: FC = () => {
             in/aleksandr-kiliushin
           </a>
           <a
-            className={classes.sidePanelSectionItem}
+            className={classes.iconWithText}
             href="https://github.com/aleksandr-kiliushin"
             rel="noreferrer"
             target="_blank"
@@ -71,17 +94,12 @@ const Cv: FC = () => {
             <GithubIcon size={20} />
             github.com/aleksandr-kiliushin
           </a>
-          <a
-            className={classes.sidePanelSectionItem}
-            href="https://t.me/aleksandr_kiliushin"
-            rel="noreferrer"
-            target="_blank"
-          >
+          <a className={classes.iconWithText} href="https://t.me/aleksandr_kiliushin" rel="noreferrer" target="_blank">
             <TelegramIcon size={20} />
             t.me/aleksandr_kiliushin
           </a>
           <a
-            className={classes.sidePanelSectionItem}
+            className={classes.iconWithText}
             href="https://www.google.com/maps/place/Batumi"
             rel="noreferrer"
             target="_blank"
@@ -91,50 +109,15 @@ const Cv: FC = () => {
           </a>
         </div>
         <section className={classes.sidePanelSection}>
-          <h3>SKILLS</h3>
-          <p className={classes.sidePanelSectionItem}>
-            <JavaScriptIcon size={20} />
-            JavaScript
-          </p>
-          <p className={classes.sidePanelSectionItem}>
-            <TypeScriptIcon size={20} />
-            TypeScript
-          </p>
-          <p className={classes.sidePanelSectionItem}>
-            <ReactIcon size={20} />
-            React.js
-          </p>
-          <p className={classes.sidePanelSectionItem}>
-            <WebpackIcon size={20} />
-            Webpack
-          </p>
-          <p className={classes.sidePanelSectionItem}>
-            <GraphQlIcon size={20} />
-            GraphQL
-          </p>
-          <p className={classes.sidePanelSectionItem}>
-            <NodeJsIcon size={20} />
-            Node.js
-          </p>
-          <p className={classes.sidePanelSectionItem}>
-            <FlaskIcon size={20} />
-            Jest, Cypress
-          </p>
-          <p className={classes.sidePanelSectionItem}>
-            <GitIcon size={20} />
-            Git
-          </p>
-        </section>
-        <section className={classes.sidePanelSection}>
           <h3>EDUCATION</h3>
-          <p className={classes.sidePanelSectionItem}>
+          <p className={classes.iconWithText}>
             <UniversityIcon size={20} />
             <span>
               <b>Master</b>’s Degree in Industrial Heat Power Engineering – Moscow State Power Institute (Russia,
               2018-2020)
             </span>
           </p>
-          <p className={classes.sidePanelSectionItem}>
+          <p className={classes.iconWithText}>
             <UniversityIcon size={20} />
             <span>
               <b>Bachelor</b>’s Degree in Industrial Heat Power Engineering – Ivanovo State Power University (Russia,
@@ -144,11 +127,11 @@ const Cv: FC = () => {
         </section>
         <section className={classes.sidePanelSection}>
           <h3>LANGUAGES</h3>
-          <p className={classes.sidePanelSectionItem}>
+          <p className={classes.iconWithText}>
             <span className={classes.twoCharactersBox}>EN</span>
             English – B2
           </p>
-          <p className={classes.sidePanelSectionItem}>
+          <p className={classes.iconWithText}>
             <span className={classes.twoCharactersBox}>RU</span>
             Russian – Native
           </p>
@@ -156,23 +139,152 @@ const Cv: FC = () => {
       </div>
       <section className={classes.workExperienceSection}>
         <h2>WORK EXPERIENCE</h2>
-        <div>
-          <h3>Rambler&CO</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
-            consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
-            eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
-            sint rem qui accusamus dolores porro, ipsum suscipit maiores!
-          </p>
+        <div className={classes.workExperience}>
+          <span className={classes.iconWithText}>
+            <OrganizationIcon size={20} />
+            <h3>Rambler&CO</h3>
+          </span>
+          <div className={classes.workExperiencePositionRow}>
+            <span className={classes.iconWithText}>
+              <PersonIcon size={20} />
+              <h4>Frontend developer</h4>
+            </span>
+            <span className={classes.iconWithText}>
+              <CalendarIcon size={20} />
+              Apr 2021 – Now ({lastWorkExperienceDuration})
+            </span>
+          </div>
+          <p>I develop interfaces for the company employees:</p>
+          <ul>
+            <li>New features development for a large project that has existed since 2015.</li>
+            <li>Interaction with the backend team and other related development teams.</li>
+            <li>Refactoring of existing modules, code base optimisation.</li>
+            <li>Migration from jQuery to TypeScript and React.</li>
+            <li>Creating plugins for TinyMCE text editor.</li>
+            <li>Web analytics configuration.</li>
+          </ul>
+          <div className={classes.workExperienceSkills}>
+            <p className={classes.iconWithText}>
+              <TypeScriptIcon size={20} />
+              TypeScript
+            </p>
+            <p className={classes.iconWithText}>
+              <WebpackIcon size={20} />
+              Webpack
+            </p>
+            <p className={classes.iconWithText}>
+              <ReactIcon size={20} />
+              React
+            </p>
+            <p className={classes.iconWithText}>
+              <ReduxIcon size={20} />
+              Redux
+            </p>
+            <p className={classes.iconWithText}>
+              <AntDesignIcon size={20} />
+              AntDesign
+            </p>
+            <p className={classes.iconWithText}>
+              <JestIcon size={20} />
+              Jest
+            </p>
+            <p className={classes.iconWithText}>
+              <CypressIcon size={20} />
+              Cypress
+            </p>
+          </div>
         </div>
-        <div>
-          <h3>Danfoss</h3>
+        <div className={classes.workExperience}>
+          <span className={classes.iconWithText}>
+            <OrganizationIcon size={20} />
+            <h3>Neuron</h3>
+          </span>
+          <div className={classes.workExperiencePositionRow}>
+            <span className={classes.iconWithText}>
+              <PersonIcon size={20} />
+              <h4>Frontend developer</h4>
+            </span>
+            <span className={classes.iconWithText}>
+              <CalendarIcon size={20} />
+              Oct 2020 – Apr 2021 (6m)
+            </span>
+          </div>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
             consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
             eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
             sint rem qui accusamus dolores porro, ipsum suscipit maiores!
           </p>
+          <div className={classes.workExperienceSkills}>
+            <p className={classes.iconWithText}>
+              <TypeScriptIcon size={20} />
+              TypeScript
+            </p>
+            <p className={classes.iconWithText}>
+              <ReactIcon size={20} />
+              React
+            </p>
+            <p className={classes.iconWithText}>
+              <StyledComponentsIcon size={20} />
+              Styled components
+            </p>
+            <p className={classes.iconWithText}>
+              <MaterialUiIcon size={20} />
+              MaterialUI
+            </p>
+            <p className={classes.iconWithText}>
+              <EthereumIcon size={20} />
+              Web3
+            </p>
+          </div>
+        </div>
+        <div className={classes.workExperience}>
+          <span className={classes.iconWithText}>
+            <OrganizationIcon size={20} />
+            <h3>Danfoss</h3>
+          </span>
+          <div className={classes.workExperiencePositionRow}>
+            <span className={classes.iconWithText}>
+              <PersonIcon size={20} />
+              <h4>Engineer</h4>
+            </span>
+            <span className={classes.iconWithText}>
+              <CalendarIcon size={20} />
+              Aug 2019 – Oct 2020 (1y 3m)
+            </span>
+          </div>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
+            consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
+            eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
+            sint rem qui accusamus dolores porro, ipsum suscipit maiores!
+          </p>
+          <div className={classes.workExperienceSkills}>
+            <p className={classes.iconWithText}>
+              <TypeScriptIcon size={20} />
+              TypeScript
+            </p>
+            <p className={classes.iconWithText}>
+              <PythonIcon size={20} />
+              Python
+            </p>
+            <p className={classes.iconWithText}>
+              <ReactIcon size={20} />
+              React
+            </p>
+            <p className={classes.iconWithText}>
+              <DjangoIcon size={20} />
+              Django
+            </p>
+            <p className={classes.iconWithText}>
+              <ReduxIcon size={20} />
+              Redux
+            </p>
+            <p className={classes.iconWithText}>
+              <PostgresIcon size={20} />
+              PostgreSQL
+            </p>
+          </div>
         </div>
       </section>
     </div>
@@ -180,3 +292,41 @@ const Cv: FC = () => {
 }
 
 export default Cv
+
+/*
+<section className={classes.sidePanelSection}>
+  <h3>SKILLS</h3>
+  <p className={classes.iconWithText}>
+    <JavaScriptIcon size={20} />
+    JavaScript
+  </p>
+  <p className={classes.iconWithText}>
+    <TypeScriptIcon size={20} />
+    TypeScript
+  </p>
+  <p className={classes.iconWithText}>
+    <ReactIcon size={20} />
+    React
+  </p>
+  <p className={classes.iconWithText}>
+    <WebpackIcon size={20} />
+    Webpack
+  </p>
+  <p className={classes.iconWithText}>
+    <GraphQlIcon size={20} />
+    GraphQL
+  </p>
+  <p className={classes.iconWithText}>
+    <NodeJsIcon size={20} />
+    Node.js
+  </p>
+  <p className={classes.iconWithText}>
+    <FlaskIcon size={20} />
+    Jest, Cypress
+  </p>
+  <p className={classes.iconWithText}>
+    <GitIcon size={20} />
+    Git
+  </p>
+</section>
+*/
