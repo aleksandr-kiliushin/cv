@@ -20,8 +20,15 @@
   }
 }
 
-@page {
-  margin: -28px;
+@media (max-width: 700px) {
+  .cv {
+    grid-template-columns: auto;
+    grid-template-areas:
+      "profilePhoto"
+      "summarySection"
+      "sidePanel"
+      "experienceSection";
+  }
 }
 
 .profilePhoto {
@@ -112,4 +119,8 @@
   font-size: 1.2rem;
   text-align: center;
   line-height: 1.8rem;
+}
+
+@page {
+  margin: -28px;
 }
