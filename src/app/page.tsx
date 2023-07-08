@@ -2,6 +2,7 @@ import Image from "next/image"
 import { FC } from "react"
 import {
   BiLogoDjango as DjangoIcon,
+  BiLogoDocker as DockerIcon,
   BiLogoNodejs as NodeJsIcon,
   BiLogoPython as PythonIcon,
   BiLogoReact as ReactIcon,
@@ -339,20 +340,20 @@ const Cv: FC = () => {
               Nest.js
             </p>
             <p className={classes.iconWithText__small}>
-              <WebpackIcon />
-              Webpack
+              <DockerIcon />
+              Docker
             </p>
             <p className={classes.iconWithText__small}>
               <ReactIcon />
               React
             </p>
             <p className={classes.iconWithText__small}>
-              <CypressIcon />
-              Cypress
+              <PwaIcon />
+              PWA
             </p>
             <p className={classes.iconWithText__small}>
-              <JestIcon />
-              Jest
+              <CypressIcon />
+              Cypress
             </p>
           </div>
         </div>
@@ -384,7 +385,20 @@ const Cv: FC = () => {
               <TypeScriptIcon />
               TypeScript
             </p>
+            <p className={classes.iconWithText__small}>
+              <JestIcon />
+              Jest
+            </p>
           </div>
+        </div>
+        <div className={classes.experience}>
+          <div className={classes.experienceHeader}>
+            <h3>Other</h3>
+          </div>
+          <p>
+            I do my best to contribute to community-important projects like Webpack, Redux, Meta repos, web.dev, and
+            different docs websites.
+          </p>
         </div>
       </section>
     </div>
