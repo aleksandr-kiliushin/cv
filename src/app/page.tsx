@@ -356,6 +356,36 @@ const Cv: FC = () => {
             </p>
           </div>
         </div>
+        <div className={classes.experience}>
+          <div className={classes.experienceHeader}>
+            <h3>Database Visualizer</h3>
+            <span>|</span>
+            <h4>Owner & Developer</h4>
+            <span>|</span>
+            2022
+          </div>
+          <p>
+            A tool that helps visualize particular DB records and their relations.{" "}
+            <u>
+              <a href="https://github.com/aleksandr-kiliushin/db-visualizer">Source code</a>
+            </u>
+            .
+          </p>
+          <div className={classes.experienceSkills}>
+            <p className={classes.iconWithText__small}>
+              <NodeJsIcon />
+              Node.js
+            </p>
+            <p className={classes.iconWithText__small}>
+              <PostgresIcon />
+              PostgreSQL
+            </p>
+            <p className={classes.iconWithText__small}>
+              <TypeScriptIcon />
+              TypeScript
+            </p>
+          </div>
+        </div>
       </section>
     </div>
   )
