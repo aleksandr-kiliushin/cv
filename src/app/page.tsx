@@ -58,9 +58,11 @@ const Cv: FC = () => {
   return (
     <div className={classes.cv}>
       <Image alt="portrait" className={classes.profilePhoto} src={portrait} />
-      <div className={classes.summarySection}>
+      <section className={classes.nameAndPostSection}>
         <h1>Aleksandr Kiliushin</h1>
         <h2>Frontend Developer (React)</h2>
+      </section>
+      <section className={classes.summarySection}>
         <ul>
           <li>Software Engineer with 4+ years of experience specializing in web and frontend development.</li>
           <li>
@@ -83,7 +85,7 @@ const Cv: FC = () => {
             player.
           </li>
         </ul>
-      </div>
+      </section>
       <div className={classes.sidePanel}>
         <section className={classes.sidePanelSection}>
           <a
