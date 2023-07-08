@@ -27,6 +27,7 @@ import {
   SiAntdesign as AntDesignIcon,
   SiJest as JestIcon,
   SiMui as MaterialUiIcon,
+  SiNestjs as NestJsIcon,
   SiPostgresql as PostgresIcon,
   SiPwa as PwaIcon,
   SiStyledcomponents as StyledComponentsIcon,
@@ -296,6 +297,62 @@ const Cv: FC = () => {
             <p className={classes.iconWithText__small}>
               <PostgresIcon />
               PostgreSQL
+            </p>
+          </div>
+        </div>
+        <h2>OTHER EXPERIENCE & OPENSOURCE</h2>
+        <div className={classes.experience}>
+          <div className={classes.experienceHeader}>
+            <h3>Family Budget</h3>
+            <span>|</span>
+            <h4>Owner & Fullstack dev</h4>
+            <span>|</span>
+            Jul 2021 – Now ({lastWorkExperienceDuration})
+          </div>
+          <p>
+            Family Budget is an open-source budget tracking application that allows users to manage their incomes and
+            expenses, track their budget, and analyze their financial statistics.{" "}
+            <u>
+              <a href="https://your-personal.netlify.app">The application</a>
+            </u>
+            {" | "}
+            <u>
+              <a href="https://github.com/aleksandr-kiliushin/personal-app-server">Backend source code</a>
+            </u>
+            {" | "}
+            <u>
+              <a href="https://github.com/aleksandr-kiliushin/personal-app-frontend">Frontend source code</a>
+            </u>
+            .
+          </p>
+          <div className={classes.experienceSkills}>
+            <p className={classes.iconWithText__small}>
+              <GraphQlIcon />
+              GraphQL
+            </p>
+            <p className={classes.iconWithText__small}>
+              <NodeJsIcon />
+              Node.js
+            </p>
+            <p className={classes.iconWithText__small}>
+              <NestJsIcon />
+              Nest.js
+            </p>
+            <p className={classes.iconWithText__small}>
+              <WebpackIcon />
+              Webpack
+            </p>
+            <p className={classes.iconWithText__small}>
+              <ReactIcon />
+              React
+            </p>
+            <p className={classes.iconWithText__small}>
+              <CypressIcon />
+              Cypress
+            </p>
+            <p className={classes.iconWithText__small}>
+              <JestIcon />
+              Jest
             </p>
           </div>
         </div>
