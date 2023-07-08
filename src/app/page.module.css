@@ -126,6 +126,8 @@
       "summarySection"
       "sidePanel"
       "experienceSection";
+    border-radius: 0;
+    margin: 0;
   }
 
   .nameAndPostSection {
