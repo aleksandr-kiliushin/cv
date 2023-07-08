@@ -1,8 +1,8 @@
 .cv {
   display: grid;
   grid-template-areas:
-    "profilePhoto summarySection       "
-    "sidePanel    workExperienceSection";
+    "profilePhoto summarySection   "
+    "sidePanel    experienceSection";
   grid-template-columns: min-content auto;
   grid-template-rows: min-content 1fr;
   gap: 2rem;
@@ -75,19 +75,19 @@
   margin-top: -1px;
 }
 
-.workExperienceSection {
-  grid-area: workExperienceSection;
+.experienceSection {
+  grid-area: experienceSection;
   display: grid;
   grid-auto-rows: min-content;
   row-gap: 1.6rem;
 }
 
-.workExperience {
+.experience {
   display: grid;
   row-gap: 0.8rem;
 }
 
-.workExperienceHeader {
+.experienceHeader {
   display: grid;
   grid-auto-flow: column;
   justify-content: start;
@@ -95,7 +95,7 @@
   column-gap: 1.2rem;
 }
 
-.workExperienceSkills {
+.experienceSkills {
   display: flex;
   flex-wrap: wrap;
   row-gap: 0.4rem;

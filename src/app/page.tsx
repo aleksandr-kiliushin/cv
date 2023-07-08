@@ -28,10 +28,11 @@ import {
   SiJest as JestIcon,
   SiMui as MaterialUiIcon,
   SiPostgresql as PostgresIcon,
+  SiPwa as PwaIcon,
   SiStyledcomponents as StyledComponentsIcon,
   SiWebpack as WebpackIcon,
 } from "react-icons/si"
-import { TbBrandCypress as CypressIcon } from "react-icons/tb"
+import { TbBrandCypress as CypressIcon, TbBrandNextjs as NextJsIcon } from "react-icons/tb"
 
 import classes from "./page.module.css"
 import portrait from "./profile.jpg"
@@ -64,16 +65,17 @@ const Cv: FC = () => {
             Proficient in JavaScript and TypeScript, with expertise in building interactive web-based applications.
           </li>
           <li>
-            Experienced in working on projects such as a big company intranet, a budget web app and online calculators.
+            Deep knowledge and versatile experience in building interactive web applications, using React and its
+            ecosystem.
           </li>
           <li>
             Knowledgeable in various phases of the Software Development Life Cycle, including feature analysis,
             planning, development, refactoring, legacy code eliminating, and migrating to new technologies.
           </li>
           <li>
-            Able to connect with individuals at different levels within the organization, promoting efficient teamwork.
+            Efficient and collaborative team player with strong problem solving skills, high attention to details,
+            ability to connect with people on different levels within the organisation.
           </li>
-          <li>Collaborative team player with a focus on flexibility and active participation in product evolution.</li>
           <li>
             Constantly looking for new knowledge and challenges to become more efficient developer and stronger team
             player.
@@ -123,41 +125,19 @@ const Cv: FC = () => {
             Batumi, Georgia
           </a>
         </section>
-        {/* <section className={classes.sidePanelSection}>
+        <section className={classes.sidePanelSection}>
           <h3>SKILLS</h3>
-          <p className={classes.iconWithText}>
-            <JavaScriptIcon />
-            JavaScript
-          </p>
-          <p className={classes.iconWithText}>
-            <TypeScriptIcon />
-            TypeScript
-          </p>
-          <p className={classes.iconWithText}>
-            <ReactIcon />
-            React
-          </p>
-          <p className={classes.iconWithText}>
-            <WebpackIcon />
-            Webpack
-          </p>
-          <p className={classes.iconWithText}>
-            <GraphQlIcon />
-            GraphQL
-          </p>
-          <p className={classes.iconWithText}>
-            <NodeJsIcon />
-            Node.js
-          </p>
-          <p className={classes.iconWithText}>
-            <FlaskIcon />
-            Jest, Cypress
-          </p>
-          <p className={classes.iconWithText}>
-            <GitIcon />
-            Git
-          </p>
-        </section> */}
+          <ul>
+            <li>UI development</li>
+            <li>CI / CD</li>
+            <li>Automated testing</li>
+            <li>Codebase optimisation</li>
+            <li>Development from scratch</li>
+            <li>Breathing life into legacy code</li>
+            <li>Code review</li>
+            <li>Onboarding & mentoring</li>
+          </ul>
+        </section>
         <section className={classes.sidePanelSection}>
           <h3>EDUCATION</h3>
           <p className={classes.iconWithText}>
@@ -187,10 +167,10 @@ const Cv: FC = () => {
           </p>
         </section>
       </div>
-      <section className={classes.workExperienceSection}>
+      <section className={classes.experienceSection}>
         <h2>WORK EXPERIENCE</h2>
-        <div className={classes.workExperience}>
-          <div className={classes.workExperienceHeader}>
+        <div className={classes.experience}>
+          <div className={classes.experienceHeader}>
             <h3>Rambler&CO</h3>
             <span>|</span>
             <h4>Frontend developer</h4>
@@ -206,7 +186,7 @@ const Cv: FC = () => {
             <li>Creating plugins for a Rich Text Editor.</li>
             <li>Web analytics configuration.</li>
           </ul>
-          <div className={classes.workExperienceSkills}>
+          <div className={classes.experienceSkills}>
             <p className={classes.iconWithText__small}>
               <TypeScriptIcon />
               TypeScript
@@ -237,8 +217,8 @@ const Cv: FC = () => {
             </p>
           </div>
         </div>
-        <div className={classes.workExperience}>
-          <div className={classes.workExperienceHeader}>
+        <div className={classes.experience}>
+          <div className={classes.experienceHeader}>
             <h3>Neuron</h3>
             <span>|</span>
             <h4>Frontend developer</h4>
@@ -251,7 +231,7 @@ const Cv: FC = () => {
             eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
             sint rem qui accusamus dolores porro, ipsum suscipit maiores!
           </p>
-          <div className={classes.workExperienceSkills}>
+          <div className={classes.experienceSkills}>
             <p className={classes.iconWithText__small}>
               <TypeScriptIcon />
               TypeScript
@@ -259,6 +239,10 @@ const Cv: FC = () => {
             <p className={classes.iconWithText__small}>
               <ReactIcon />
               React
+            </p>
+            <p className={classes.iconWithText__small}>
+              <NextJsIcon />
+              Next.js
             </p>
             <p className={classes.iconWithText__small}>
               <StyledComponentsIcon />
@@ -274,8 +258,8 @@ const Cv: FC = () => {
             </p>
           </div>
         </div>
-        <div className={classes.workExperience}>
-          <div className={classes.workExperienceHeader}>
+        <div className={classes.experience}>
+          <div className={classes.experienceHeader}>
             <h3>Danfoss</h3>
             <span>|</span>
             <h4>Engineer</h4>
@@ -288,7 +272,7 @@ const Cv: FC = () => {
             eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
             sint rem qui accusamus dolores porro, ipsum suscipit maiores!
           </p>
-          <div className={classes.workExperienceSkills}>
+          <div className={classes.experienceSkills}>
             <p className={classes.iconWithText__small}>
               <TypeScriptIcon />
               TypeScript
