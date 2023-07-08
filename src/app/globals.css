@@ -107,3 +107,9 @@ h4 {
 .highlighted-text {
   color: var(--primary-main);
 }
+
+@media screen and (max-width: 700px) {
+  body {
+    background-image: unset;
+  }
+}
