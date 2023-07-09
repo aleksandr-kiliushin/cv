@@ -162,6 +162,10 @@
   .experienceHeader > :not(:last-child)::after {
     display: none;
   }
+
+  .printButton {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -197,4 +201,10 @@
 
 @page {
   margin: -28px;
+}
+
+@media print {
+  .printButton {
+    display: none;
+  }
 }

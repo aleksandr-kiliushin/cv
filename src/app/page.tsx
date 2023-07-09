@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import { FC } from "react"
 import {
@@ -408,7 +410,12 @@ const Cv: FC = () => {
           </div>
         </div>
       </section>
-      <button className={classes.printButton}>
+      <button
+        className={classes.printButton}
+        onClick={() => {
+          globalThis.print()
+        }}
+      >
         <PrinterIcon size={20} />
       </button>
     </div>
