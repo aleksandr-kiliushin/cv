@@ -63,7 +63,7 @@
   display: flex;
   align-items: flex-start;
   column-gap: 0.2rem;
-  font-size: 13px;
+  font-size: 1.3rem;
 }
 .iconWithText__small svg {
   flex: none;
@@ -94,7 +94,20 @@
   grid-auto-flow: column;
   justify-content: flex-start;
   align-items: center;
-  column-gap: 1.2rem;
+  column-gap: 2.4rem;
+}
+
+.experienceHeader > :not(:last-child) {
+  position: relative;
+}
+.experienceHeader > :not(:last-child)::after {
+  content: "";
+  position: absolute;
+  right: -1.2rem;
+  top: 0.4rem;
+  height: 1.4rem;
+  width: 1.5px;
+  background-color: black;
 }
 
 .experienceSkills {
@@ -120,6 +133,14 @@
   .cv {
     margin: 2rem;
   }
+
+  .experienceHeader {
+    grid-auto-flow: row;
+  }
+
+  .experienceHeader > :not(:last-child)::after {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 700px) {
@@ -137,6 +158,15 @@
 
   .nameAndPostSection {
     text-align: center;
+  }
+
+  .iconWithText__small {
+    column-gap: 0.4rem;
+    font-size: 1.6rem;
+  }
+  .iconWithText__small svg {
+    height: 18px;
+    width: 18px;
   }
 }
 

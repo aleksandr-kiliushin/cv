@@ -177,10 +177,8 @@ const Cv: FC = () => {
           <div className={classes.experience}>
             <div className={classes.experienceHeader}>
               <h3>Rambler&CO</h3>
-              <span>|</span>
               <h4>Frontend developer</h4>
-              <span>|</span>
-              Apr 2021 – Now ({lastWorkExperienceDuration})
+              <span>Apr 2021 – Now ({lastWorkExperienceDuration})</span>
             </div>
             <p>
               Intranet is a large-scale project with over 10 years in production. For more than 2 years I implemented
@@ -225,10 +223,8 @@ const Cv: FC = () => {
           <div className={classes.experience}>
             <div className={classes.experienceHeader}>
               <h3>Neuron</h3>
-              <span>|</span>
               <h4>Frontend developer</h4>
-              <span>|</span>
-              Oct 2020 – Apr 2021 (7m)
+              <span>Oct 2020 – Apr 2021 (7m)</span>
             </div>
             <p>
               I played a crucial role in developing a tool that maximizes returns by leveraging assets from pooled
@@ -266,10 +262,8 @@ const Cv: FC = () => {
           <div className={classes.experience}>
             <div className={classes.experienceHeader}>
               <h3>Danfoss</h3>
-              <span>|</span>
               <h4>Engineer</h4>
-              <span>|</span>
-              Aug 2019 – Oct 2020 (1y 3m)
+              <span>Aug 2019 – Oct 2020 (1y 3m)</span>
             </div>
             <p>
               I implemented apps to automate engineering calculations, resulting in improved accuracy and saving ~20
@@ -306,14 +300,12 @@ const Cv: FC = () => {
           </div>
         </div>
         <div className={classes.experienceSubsection}>
-          <h2>OTHER EXPERIENCE & OPENSOURCE</h2>
+          <h2>OTHER EXPERIENCE</h2>
           <div className={classes.experience}>
             <div className={classes.experienceHeader}>
               <h3>Family Budget</h3>
-              <span>|</span>
               <h4>Owner & Fullstack dev</h4>
-              <span>|</span>
-              Jul 2021 – Now ({lastWorkExperienceDuration})
+              <span>Jul 2021 – Now ({lastWorkExperienceDuration})</span>
             </div>
             <p>
               Family Budget is an open-source budget tracking application that allows users to manage their incomes and
@@ -365,10 +357,8 @@ const Cv: FC = () => {
           <div className={classes.experience}>
             <div className={classes.experienceHeader}>
               <h3>Database Visualizer</h3>
-              <span>|</span>
               <h4>Owner & Developer</h4>
-              <span>|</span>
-              2022
+              <span>2022</span>
             </div>
             <p>
               A tool that helps visualize particular DB records and their relations.{" "}
