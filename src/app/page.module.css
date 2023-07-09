@@ -33,6 +33,7 @@
   grid-area: summarySection;
   display: grid;
   row-gap: 0.4rem;
+  margin-top: -1.2rem;
 }
 
 .sidePanel {
@@ -159,6 +160,10 @@
 
   .nameAndPostSection {
     text-align: center;
+  }
+
+  .summarySection {
+    margin-top: 0;
   }
 
   .iconWithText__small {
