@@ -64,10 +64,8 @@ const Cv: FC = () => {
       </section>
       <section className={classes.summarySection}>
         <ul>
-          <li>Software Engineer with 4+ years of experience specializing in web and frontend development.</li>
-          <li>
-            Proficient in JavaScript and TypeScript, with expertise in building interactive web-based applications.
-          </li>
+          <li>Software Engineer with 4+ years of experience in frontend development.</li>
+          <li>Proficient in JavaScript, with expertise in building interactive web applications.</li>
           <li>
             Deep knowledge and versatile experience in building interactive web applications, using React and its
             ecosystem.
@@ -76,12 +74,9 @@ const Cv: FC = () => {
             Knowledgeable in various phases of the Software Development Life Cycle, including feature analysis,
             planning, development, refactoring, legacy code eliminating, and migrating to new technologies.
           </li>
+          <li>Product-oriented engineer collaborative with business and seeking for results.</li>
           <li>
-            Efficient and collaborative team player with strong problem solving skills, high attention to details,
-            ability to connect with people on different levels within the organisation.
-          </li>
-          <li>
-            Constantly looking for new knowledge and challenges to become more efficient developer and stronger team
+            Constantly looking for new knowledge and challenges to become a more efficient developer and a stronger team
             player.
           </li>
         </ul>
@@ -180,15 +175,20 @@ const Cv: FC = () => {
               <h4>Frontend developer</h4>
               <span>Apr 2021 – Now ({lastWorkExperienceDuration})</span>
             </div>
-            <p>
-              Intranet is a large-scale project with over 10 years in production. For more than 2 years I implemented
-              and enhanced a lot of features while dealing with a significant amount of legacy code. My contributions
-              include optimizing build speed, establishing development standards, upgrading Node.js and over 60 NPM
-              packages to latest and keeping up-to-date, conducting interviews and code reviews, facilitating
-              onboarding, systematizing codebase migrations, and implementing complex elements like organization
-              structure and form constructor. I diligently track codebase metrics and statistics to ensure the project's
-              success.
-            </p>
+            <p>I've been working at a large-scale intranet project with 10+ years in production.</p>
+            <ul>
+              <li>I implemented many new features and eliminated loads of legacy code.</li>
+              <li>
+                Optimised build speed, established development standards, upgraded Node.js and the whole lot of NPM
+                packages and keep them up-to-date.
+              </li>
+              <li>
+                Systematised codebase migrations and implemented complex elements, e.g. an organizational structure tree
+                and a form constructor.
+              </li>
+              <li>Conducted technical interviews and facilitated onboarding process.</li>
+              <li>I've been constistently tracking codebase metrics and statistics to ensure the project's health.</li>
+            </ul>
             <div className={classes.experienceSkills}>
               <p className={classes.iconWithText__small}>
                 <TypeScriptIcon />
@@ -226,12 +226,18 @@ const Cv: FC = () => {
               <h4>Frontend developer</h4>
               <span>Oct 2020 – Apr 2021 (7m)</span>
             </div>
-            <p>
-              I played a crucial role in developing a tool that maximizes returns by leveraging assets from pooled
-              funds. My contributions included collaborating with the UI/UX designer to create a seamless interface,
-              refactoring the codebase for improved efficiency, adding new features, building numerous components and
-              pages.
-            </p>
+            <p>Neuron is a financial startup for crypto funds leveraging.</p>
+            <ul>
+              <li>
+                I played a crucial role in development of a tool that maximized returns by leveraging assets from pooled
+                funds.
+              </li>
+              <li>
+                Provided major refactoring of this startup project, ensured code base sustainability and speeded up
+                development process by that.
+              </li>
+              <li>Productevely collaborated with the product designer to create a seamless UI.</li>
+            </ul>
             <div className={classes.experienceSkills}>
               <p className={classes.iconWithText__small}>
                 <TypeScriptIcon />
@@ -265,12 +271,16 @@ const Cv: FC = () => {
               <h4>Engineer</h4>
               <span>Aug 2019 – Oct 2020 (1y 3m)</span>
             </div>
-            <p>
-              I implemented apps to automate engineering calculations, resulting in improved accuracy and saving ~20
-              hours of the team's working time. The projects included an app for heat energy equipment, an app for
-              generating calculation reports, and various automation scripts. The apps offered functionalities like
-              graphical diagram display, equipment selection, e-mailing, and report downloads as .doc and .xls.
-            </p>
+            <p>Danfoss is an international corporation producing industrial equipment.</p>
+            <ul>
+              <li>I implemented an app for heat energy equipment selection.</li>
+              <li>Developend an app for generating calculation reports.</li>
+              <li>Provided various automation scripts for the engineering team.</li>
+              <li>
+                The apps included graphical diagram displaying, equipment selection, e-mailing, and reports downloading.
+              </li>
+              <li>All these resulted in improved accuracy and saved ~20 man-hours weekly.</li>
+            </ul>
             <div className={classes.experienceSkills}>
               <p className={classes.iconWithText__small}>
                 <TypeScriptIcon />
