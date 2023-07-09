@@ -1,4 +1,5 @@
 .cv {
+  position: relative;
   display: grid;
   grid-template-areas:
     "profilePhoto nameAndPostSection"
@@ -129,6 +130,24 @@
   font-size: 1.2rem;
   text-align: center;
   line-height: 1.8rem;
+}
+
+.printButton {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+  height: 4rem;
+  width: 4rem;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 0.8rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.printButton:hover {
+  background-color: black;
+  color: white;
 }
 
 @media screen and (max-width: 840px) {

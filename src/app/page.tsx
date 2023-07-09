@@ -13,6 +13,7 @@ import {
   BsGithub as GithubIcon,
   BsLinkedin as LinkedinIcon,
   BsPerson as PersonIcon,
+  BsPrinter as PrinterIcon,
   BsTelegram as TelegramIcon,
 } from "react-icons/bs"
 import { FaGitAlt as GitIcon, FaUniversity as UniversityIcon } from "react-icons/fa"
@@ -407,6 +408,9 @@ const Cv: FC = () => {
           </div>
         </div>
       </section>
+      <button className={classes.printButton}>
+        <PrinterIcon size={20} />
+      </button>
     </div>
   )
 }
