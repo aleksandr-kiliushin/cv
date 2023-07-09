@@ -271,10 +271,10 @@ const Cv: FC = () => {
             Aug 2019 – Oct 2020 (1y 3m)
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
-            consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
-            eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
-            sint rem qui accusamus dolores porro, ipsum suscipit maiores!
+            I implemented apps to automate engineering calculations, resulting in improved accuracy and saving ~20 hours
+            of the team's working time. The projects included an app for heat energy equipment, an app for generating
+            calculation reports, and various automation scripts. The apps offered functionalities like graphical diagram
+            display, equipment selection, e-mailing, and report downloads as .doc and .xls.
           </p>
           <div className={classes.experienceSkills}>
             <p className={classes.iconWithText__small}>
