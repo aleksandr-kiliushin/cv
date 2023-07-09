@@ -181,15 +181,14 @@ const Cv: FC = () => {
             <span>|</span>
             Apr 2021 – Now ({lastWorkExperienceDuration})
           </div>
-          <p>I develop interfaces for the company employees:</p>
-          <ul>
-            <li>New features development for a large project that has existed since 2015.</li>
-            <li>Interaction with the backend team and other related development teams.</li>
-            <li>Refactoring of existing modules, code base optimisation.</li>
-            <li>Migration from jQuery and Backbone.js to TypeScript and React.</li>
-            <li>Creating plugins for a Rich Text Editor.</li>
-            <li>Web analytics configuration.</li>
-          </ul>
+          <p>
+            Intranet is a large-scale project with over 10 years in production. For more than 2 years I implemented and
+            enhanced a lot of features while dealing with a significant amount of legacy code. My contributions include
+            optimizing build speed, establishing development standards, upgrading Node.js and over 60 NPM packages to
+            latest and keeping up-to-date, conducting interviews and code reviews, facilitating onboarding,
+            systematizing codebase migrations, and implementing complex elements like organization structure and form
+            constructor. I diligently track codebase metrics and statistics to ensure the project's success.
+          </p>
           <div className={classes.experienceSkills}>
             <p className={classes.iconWithText__small}>
               <TypeScriptIcon />
@@ -230,10 +229,9 @@ const Cv: FC = () => {
             Oct 2020 – Apr 2021 (7m)
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam dolores praesentium asperiores, eos,
-            consequuntur repudiandae vitae, autem aliquid non ratione doloribus et. Cupiditate vero sint impedit dolorum
-            eligendi est deleniti? Fugit asperiores nobis ullam. Illo beatae similique delectus quis, nihil perferendis,
-            sint rem qui accusamus dolores porro, ipsum suscipit maiores!
+            I played a crucial role in developing a tool that maximizes returns by leveraging assets from pooled funds.
+            My contributions included collaborating with the UI/UX designer to create a seamless interface, refactoring
+            the codebase for improved efficiency, adding new features, building numerous components and pages.
           </p>
           <div className={classes.experienceSkills}>
             <p className={classes.iconWithText__small}>
