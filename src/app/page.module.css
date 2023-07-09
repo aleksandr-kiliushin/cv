@@ -79,6 +79,11 @@
   row-gap: 1.6rem;
 }
 
+.experienceSubsection {
+  display: grid;
+  row-gap: 0.8rem;
+}
+
 .experience {
   display: grid;
   row-gap: 0.4rem;

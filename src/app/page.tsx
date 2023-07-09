@@ -172,233 +172,239 @@ const Cv: FC = () => {
         </section>
       </div>
       <section className={classes.experienceSection}>
-        <h2>WORK EXPERIENCE</h2>
-        <div className={classes.experience}>
-          <div className={classes.experienceHeader}>
-            <h3>Rambler&CO</h3>
-            <span>|</span>
-            <h4>Frontend developer</h4>
-            <span>|</span>
-            Apr 2021 – Now ({lastWorkExperienceDuration})
+        <div className={classes.experienceSubsection}>
+          <h2>WORK EXPERIENCE</h2>
+          <div className={classes.experience}>
+            <div className={classes.experienceHeader}>
+              <h3>Rambler&CO</h3>
+              <span>|</span>
+              <h4>Frontend developer</h4>
+              <span>|</span>
+              Apr 2021 – Now ({lastWorkExperienceDuration})
+            </div>
+            <p>
+              Intranet is a large-scale project with over 10 years in production. For more than 2 years I implemented
+              and enhanced a lot of features while dealing with a significant amount of legacy code. My contributions
+              include optimizing build speed, establishing development standards, upgrading Node.js and over 60 NPM
+              packages to latest and keeping up-to-date, conducting interviews and code reviews, facilitating
+              onboarding, systematizing codebase migrations, and implementing complex elements like organization
+              structure and form constructor. I diligently track codebase metrics and statistics to ensure the project's
+              success.
+            </p>
+            <div className={classes.experienceSkills}>
+              <p className={classes.iconWithText__small}>
+                <TypeScriptIcon />
+                TypeScript
+              </p>
+              <p className={classes.iconWithText__small}>
+                <WebpackIcon />
+                Webpack
+              </p>
+              <p className={classes.iconWithText__small}>
+                <ReactIcon />
+                React
+              </p>
+              <p className={classes.iconWithText__small}>
+                <ReduxIcon />
+                Redux
+              </p>
+              <p className={classes.iconWithText__small}>
+                <AntDesignIcon />
+                AntDesign
+              </p>
+              <p className={classes.iconWithText__small}>
+                <JestIcon />
+                Jest
+              </p>
+              <p className={classes.iconWithText__small}>
+                <CypressIcon />
+                Cypress
+              </p>
+            </div>
           </div>
-          <p>
-            Intranet is a large-scale project with over 10 years in production. For more than 2 years I implemented and
-            enhanced a lot of features while dealing with a significant amount of legacy code. My contributions include
-            optimizing build speed, establishing development standards, upgrading Node.js and over 60 NPM packages to
-            latest and keeping up-to-date, conducting interviews and code reviews, facilitating onboarding,
-            systematizing codebase migrations, and implementing complex elements like organization structure and form
-            constructor. I diligently track codebase metrics and statistics to ensure the project's success.
-          </p>
-          <div className={classes.experienceSkills}>
-            <p className={classes.iconWithText__small}>
-              <TypeScriptIcon />
-              TypeScript
+          <div className={classes.experience}>
+            <div className={classes.experienceHeader}>
+              <h3>Neuron</h3>
+              <span>|</span>
+              <h4>Frontend developer</h4>
+              <span>|</span>
+              Oct 2020 – Apr 2021 (7m)
+            </div>
+            <p>
+              I played a crucial role in developing a tool that maximizes returns by leveraging assets from pooled
+              funds. My contributions included collaborating with the UI/UX designer to create a seamless interface,
+              refactoring the codebase for improved efficiency, adding new features, building numerous components and
+              pages.
             </p>
-            <p className={classes.iconWithText__small}>
-              <WebpackIcon />
-              Webpack
-            </p>
-            <p className={classes.iconWithText__small}>
-              <ReactIcon />
-              React
-            </p>
-            <p className={classes.iconWithText__small}>
-              <ReduxIcon />
-              Redux
-            </p>
-            <p className={classes.iconWithText__small}>
-              <AntDesignIcon />
-              AntDesign
-            </p>
-            <p className={classes.iconWithText__small}>
-              <JestIcon />
-              Jest
-            </p>
-            <p className={classes.iconWithText__small}>
-              <CypressIcon />
-              Cypress
-            </p>
+            <div className={classes.experienceSkills}>
+              <p className={classes.iconWithText__small}>
+                <TypeScriptIcon />
+                TypeScript
+              </p>
+              <p className={classes.iconWithText__small}>
+                <ReactIcon />
+                React
+              </p>
+              <p className={classes.iconWithText__small}>
+                <NextJsIcon />
+                Next.js
+              </p>
+              <p className={classes.iconWithText__small}>
+                <StyledComponentsIcon />
+                Styled components
+              </p>
+              <p className={classes.iconWithText__small}>
+                <MaterialUiIcon />
+                MaterialUI
+              </p>
+              <p className={classes.iconWithText__small}>
+                <EthereumIcon />
+                Web3
+              </p>
+            </div>
           </div>
-        </div>
-        <div className={classes.experience}>
-          <div className={classes.experienceHeader}>
-            <h3>Neuron</h3>
-            <span>|</span>
-            <h4>Frontend developer</h4>
-            <span>|</span>
-            Oct 2020 – Apr 2021 (7m)
-          </div>
-          <p>
-            I played a crucial role in developing a tool that maximizes returns by leveraging assets from pooled funds.
-            My contributions included collaborating with the UI/UX designer to create a seamless interface, refactoring
-            the codebase for improved efficiency, adding new features, building numerous components and pages.
-          </p>
-          <div className={classes.experienceSkills}>
-            <p className={classes.iconWithText__small}>
-              <TypeScriptIcon />
-              TypeScript
+          <div className={classes.experience}>
+            <div className={classes.experienceHeader}>
+              <h3>Danfoss</h3>
+              <span>|</span>
+              <h4>Engineer</h4>
+              <span>|</span>
+              Aug 2019 – Oct 2020 (1y 3m)
+            </div>
+            <p>
+              I implemented apps to automate engineering calculations, resulting in improved accuracy and saving ~20
+              hours of the team's working time. The projects included an app for heat energy equipment, an app for
+              generating calculation reports, and various automation scripts. The apps offered functionalities like
+              graphical diagram display, equipment selection, e-mailing, and report downloads as .doc and .xls.
             </p>
-            <p className={classes.iconWithText__small}>
-              <ReactIcon />
-              React
-            </p>
-            <p className={classes.iconWithText__small}>
-              <NextJsIcon />
-              Next.js
-            </p>
-            <p className={classes.iconWithText__small}>
-              <StyledComponentsIcon />
-              Styled components
-            </p>
-            <p className={classes.iconWithText__small}>
-              <MaterialUiIcon />
-              MaterialUI
-            </p>
-            <p className={classes.iconWithText__small}>
-              <EthereumIcon />
-              Web3
-            </p>
-          </div>
-        </div>
-        <div className={classes.experience}>
-          <div className={classes.experienceHeader}>
-            <h3>Danfoss</h3>
-            <span>|</span>
-            <h4>Engineer</h4>
-            <span>|</span>
-            Aug 2019 – Oct 2020 (1y 3m)
-          </div>
-          <p>
-            I implemented apps to automate engineering calculations, resulting in improved accuracy and saving ~20 hours
-            of the team's working time. The projects included an app for heat energy equipment, an app for generating
-            calculation reports, and various automation scripts. The apps offered functionalities like graphical diagram
-            display, equipment selection, e-mailing, and report downloads as .doc and .xls.
-          </p>
-          <div className={classes.experienceSkills}>
-            <p className={classes.iconWithText__small}>
-              <TypeScriptIcon />
-              TypeScript
-            </p>
-            <p className={classes.iconWithText__small}>
-              <PythonIcon />
-              Python
-            </p>
-            <p className={classes.iconWithText__small}>
-              <ReactIcon />
-              React
-            </p>
-            <p className={classes.iconWithText__small}>
-              <DjangoIcon />
-              Django
-            </p>
-            <p className={classes.iconWithText__small}>
-              <ReduxIcon />
-              Redux
-            </p>
-            <p className={classes.iconWithText__small}>
-              <PostgresIcon />
-              PostgreSQL
-            </p>
-          </div>
-        </div>
-        <h2>OTHER EXPERIENCE & OPENSOURCE</h2>
-        <div className={classes.experience}>
-          <div className={classes.experienceHeader}>
-            <h3>Family Budget</h3>
-            <span>|</span>
-            <h4>Owner & Fullstack dev</h4>
-            <span>|</span>
-            Jul 2021 – Now ({lastWorkExperienceDuration})
-          </div>
-          <p>
-            Family Budget is an open-source budget tracking application that allows users to manage their incomes and
-            expenses, track their budget, and analyze their financial statistics.{" "}
-            <u>
-              <a href="https://your-personal.netlify.app">The application</a>
-            </u>
-            {" | "}
-            <u>
-              <a href="https://github.com/aleksandr-kiliushin/personal-app-server">Backend source code</a>
-            </u>
-            {" | "}
-            <u>
-              <a href="https://github.com/aleksandr-kiliushin/personal-app-frontend">Frontend source code</a>
-            </u>
-            .
-          </p>
-          <div className={classes.experienceSkills}>
-            <p className={classes.iconWithText__small}>
-              <GraphQlIcon />
-              GraphQL
-            </p>
-            <p className={classes.iconWithText__small}>
-              <NodeJsIcon />
-              Node.js
-            </p>
-            <p className={classes.iconWithText__small}>
-              <NestJsIcon />
-              Nest.js
-            </p>
-            <p className={classes.iconWithText__small}>
-              <DockerIcon />
-              Docker
-            </p>
-            <p className={classes.iconWithText__small}>
-              <ReactIcon />
-              React
-            </p>
-            <p className={classes.iconWithText__small}>
-              <PwaIcon />
-              PWA
-            </p>
-            <p className={classes.iconWithText__small}>
-              <CypressIcon />
-              Cypress
-            </p>
+            <div className={classes.experienceSkills}>
+              <p className={classes.iconWithText__small}>
+                <TypeScriptIcon />
+                TypeScript
+              </p>
+              <p className={classes.iconWithText__small}>
+                <PythonIcon />
+                Python
+              </p>
+              <p className={classes.iconWithText__small}>
+                <ReactIcon />
+                React
+              </p>
+              <p className={classes.iconWithText__small}>
+                <DjangoIcon />
+                Django
+              </p>
+              <p className={classes.iconWithText__small}>
+                <ReduxIcon />
+                Redux
+              </p>
+              <p className={classes.iconWithText__small}>
+                <PostgresIcon />
+                PostgreSQL
+              </p>
+            </div>
           </div>
         </div>
-        <div className={classes.experience}>
-          <div className={classes.experienceHeader}>
-            <h3>Database Visualizer</h3>
-            <span>|</span>
-            <h4>Owner & Developer</h4>
-            <span>|</span>
-            2022
+        <div className={classes.experienceSubsection}>
+          <h2>OTHER EXPERIENCE & OPENSOURCE</h2>
+          <div className={classes.experience}>
+            <div className={classes.experienceHeader}>
+              <h3>Family Budget</h3>
+              <span>|</span>
+              <h4>Owner & Fullstack dev</h4>
+              <span>|</span>
+              Jul 2021 – Now ({lastWorkExperienceDuration})
+            </div>
+            <p>
+              Family Budget is an open-source budget tracking application that allows users to manage their incomes and
+              expenses, track their budget, and analyze their financial statistics.{" "}
+              <u>
+                <a href="https://your-personal.netlify.app">The application</a>
+              </u>
+              {" | "}
+              <u>
+                <a href="https://github.com/aleksandr-kiliushin/personal-app-server">Backend source code</a>
+              </u>
+              {" | "}
+              <u>
+                <a href="https://github.com/aleksandr-kiliushin/personal-app-frontend">Frontend source code</a>
+              </u>
+              .
+            </p>
+            <div className={classes.experienceSkills}>
+              <p className={classes.iconWithText__small}>
+                <GraphQlIcon />
+                GraphQL
+              </p>
+              <p className={classes.iconWithText__small}>
+                <NodeJsIcon />
+                Node.js
+              </p>
+              <p className={classes.iconWithText__small}>
+                <NestJsIcon />
+                Nest.js
+              </p>
+              <p className={classes.iconWithText__small}>
+                <DockerIcon />
+                Docker
+              </p>
+              <p className={classes.iconWithText__small}>
+                <ReactIcon />
+                React
+              </p>
+              <p className={classes.iconWithText__small}>
+                <PwaIcon />
+                PWA
+              </p>
+              <p className={classes.iconWithText__small}>
+                <CypressIcon />
+                Cypress
+              </p>
+            </div>
           </div>
-          <p>
-            A tool that helps visualize particular DB records and their relations.{" "}
-            <u>
-              <a href="https://github.com/aleksandr-kiliushin/db-visualizer">Source code</a>
-            </u>
-            .
-          </p>
-          <div className={classes.experienceSkills}>
-            <p className={classes.iconWithText__small}>
-              <NodeJsIcon />
-              Node.js
+          <div className={classes.experience}>
+            <div className={classes.experienceHeader}>
+              <h3>Database Visualizer</h3>
+              <span>|</span>
+              <h4>Owner & Developer</h4>
+              <span>|</span>
+              2022
+            </div>
+            <p>
+              A tool that helps visualize particular DB records and their relations.{" "}
+              <u>
+                <a href="https://github.com/aleksandr-kiliushin/db-visualizer">Source code</a>
+              </u>
+              .
             </p>
-            <p className={classes.iconWithText__small}>
-              <PostgresIcon />
-              PostgreSQL
-            </p>
-            <p className={classes.iconWithText__small}>
-              <TypeScriptIcon />
-              TypeScript
-            </p>
-            <p className={classes.iconWithText__small}>
-              <JestIcon />
-              Jest
+            <div className={classes.experienceSkills}>
+              <p className={classes.iconWithText__small}>
+                <NodeJsIcon />
+                Node.js
+              </p>
+              <p className={classes.iconWithText__small}>
+                <PostgresIcon />
+                PostgreSQL
+              </p>
+              <p className={classes.iconWithText__small}>
+                <TypeScriptIcon />
+                TypeScript
+              </p>
+              <p className={classes.iconWithText__small}>
+                <JestIcon />
+                Jest
+              </p>
+            </div>
+          </div>
+          <div className={classes.experience}>
+            <div className={classes.experienceHeader}>
+              <h3>Other</h3>
+            </div>
+            <p>
+              I do my best to contribute to community-important projects like Webpack, Redux, Meta repos, web.dev, and
+              different docs websites.
             </p>
           </div>
-        </div>
-        <div className={classes.experience}>
-          <div className={classes.experienceHeader}>
-            <h3>Other</h3>
-          </div>
-          <p>
-            I do my best to contribute to community-important projects like Webpack, Redux, Meta repos, web.dev, and
-            different docs websites.
-          </p>
         </div>
       </section>
     </div>
