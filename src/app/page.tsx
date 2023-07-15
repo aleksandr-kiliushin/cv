@@ -145,7 +145,7 @@ const Cv: FC = () => {
           <p className={classes.iconWithText}>
             <UniversityIcon />
             <span>
-              <b>Master</b>’s Degree in Industrial Heat Power Engineering – Moscow State Power Institute (Russia,
+              <b>Master</b>’s Degree in Industrial Heat Power Engineering – Moscow Power Engineering Institute (Russia,
               2018-2020)
             </span>
           </p>
