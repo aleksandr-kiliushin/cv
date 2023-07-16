@@ -316,12 +316,12 @@ const Cv: FC = () => {
           <h2>OTHER EXPERIENCE</h2>
           <div className={classes.experience}>
             <div className={classes.experienceHeader}>
-              <h3>Family Budget</h3>
+              <h3>Budgetello</h3>
               <h4>Owner & Fullstack dev</h4>
               <span>Jul 2021 – Now ({lastWorkExperienceDuration})</span>
             </div>
             <p>
-              Family Budget is an open-source budget tracking application that allows users to manage their incomes and
+              Budgetello is an open-source budget tracking application that allows users to manage their incomes and
               expenses, track their budget, and analyze their financial statistics.{" "}
               <u>
                 <a href="https://your-personal.netlify.app">The application</a>
