@@ -324,7 +324,7 @@ const Cv: FC = () => {
               Budgetello is an open-source budget tracking application that allows users to manage their incomes and
               expenses, track their budget, and analyze their financial statistics.{" "}
               <u>
-                <a href="https://your-personal.netlify.app">The application</a>
+                <a href="https://budgetello.space">budgetello.space</a>
               </u>
               {" | "}
               <u>
