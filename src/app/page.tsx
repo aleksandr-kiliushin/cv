@@ -330,15 +330,21 @@ const Cv: FC = () => {
               Budgetello is an open-source budget tracking application that allows users to manage their incomes and
               expenses, track their budget, and analyze their financial statistics.{" "}
               <u>
-                <a href="https://budgetello.space">budgetello.space</a>
+                <a href="https://budgetello.space" rel="noreferrer" target="_blank">
+                  budgetello.space
+                </a>
               </u>
               {" | "}
               <u>
-                <a href="https://github.com/aleksandr-kiliushin/personal-app-server">Backend source code</a>
+                <a href="https://github.com/aleksandr-kiliushin/personal-app-server" rel="noreferrer" target="_blank">
+                  Backend source code
+                </a>
               </u>
               {" | "}
               <u>
-                <a href="https://github.com/aleksandr-kiliushin/personal-app-frontend">Frontend source code</a>
+                <a href="https://github.com/aleksandr-kiliushin/personal-app-frontend" rel="noreferrer" target="_blank">
+                  Frontend source code
+                </a>
               </u>
               .
             </p>
@@ -382,7 +388,9 @@ const Cv: FC = () => {
             <p>
               A tool that helps visualize particular DB records and their relations.{" "}
               <u>
-                <a href="https://github.com/aleksandr-kiliushin/db-visualizer">Source code</a>
+                <a href="https://github.com/aleksandr-kiliushin/db-visualizer" rel="noreferrer" target="_blank">
+                  Source code
+                </a>
               </u>
               .
             </p>
