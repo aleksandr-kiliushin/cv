@@ -283,7 +283,7 @@ const Cv: FC = () => {
             <p>Danfoss is an international corporation producing industrial equipment.</p>
             <ul>
               <li>I implemented an app for heat energy equipment selection.</li>
-              <li>Developend an app for generating calculation reports.</li>
+              <li>Developed an app for generating calculation reports.</li>
               <li>Provided various automation scripts for the engineering team.</li>
               <li>
                 The apps included graphical diagram displaying, equipment selection, e-mailing, and reports downloading.
