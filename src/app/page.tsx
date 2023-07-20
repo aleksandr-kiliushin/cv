@@ -29,7 +29,7 @@ import { RiJavascriptFill as JavaScriptIcon } from "react-icons/ri"
 import { RxCalendar as CalendarIcon } from "react-icons/rx"
 import {
   SiAntdesign as AntDesignIcon,
-  SiJest as JestIcon,
+  SiJest as JestIcon, // SiLeetcode as LeetcodeIcon,
   SiMui as MaterialUiIcon,
   SiNestjs as NestJsIcon,
   SiPostgresql as PostgresIcon,
@@ -69,10 +69,7 @@ const Cv: FC = () => {
         <ul>
           <li>Software Engineer with 4+ years of experience in frontend development.</li>
           <li>Proficient in JavaScript, with expertise in building interactive web applications.</li>
-          <li>
-            Deep knowledge and versatile experience in building interactive web applications, using React and its
-            ecosystem.
-          </li>
+          <li>Deep knowledge and versatile experience in building web apps using React and its ecosystem.</li>
           <li>
             Knowledgeable in various phases of the Software Development Life Cycle, including feature analysis,
             planning, development, refactoring, legacy code eliminating, and migrating to new technologies.
@@ -117,6 +114,15 @@ const Cv: FC = () => {
             <TelegramIcon />
             t.me/aleksandr_kiliushin
           </a>
+          {/* <a
+            className={classes.iconWithText}
+            href="https://leetcode.com/aleksandr-kiliushin"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <LeetcodeIcon />
+            leetcode.com/aleksandr-kiliushin
+          </a> */}
           <a
             className={classes.iconWithText}
             href="https://www.google.com/maps/place/Batumi"
